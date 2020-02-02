@@ -1,0 +1,241 @@
+Add Main Screen
+
+Add Main Screen (Create a deck of card and spead animation)
+
+Re-design Start Screen, and remove unnecessary stuff
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Sat Feb 1 18:49:02 2020 -0500
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	renamed:    Assets/QS/Abstract backgrounds/Documentation.meta -> Assets/AssetBundles.meta
+#	new file:   Assets/AssetBundles/Cards.meta
+#	new file:   Assets/AssetBundles/Cards/10_of_clubs.png
+#	new file:   Assets/AssetBundles/Cards/10_of_clubs.png.meta
+#	new file:   Assets/AssetBundles/Cards/10_of_diamonds.png
+#	new file:   Assets/AssetBundles/Cards/10_of_diamonds.png.meta
+#	new file:   Assets/AssetBundles/Cards/10_of_hearts.png
+#	new file:   Assets/AssetBundles/Cards/10_of_hearts.png.meta
+#	new file:   Assets/AssetBundles/Cards/10_of_spades.png
+#	new file:   Assets/AssetBundles/Cards/10_of_spades.png.meta
+#	new file:   Assets/AssetBundles/Cards/2_of_clubs.png
+#	new file:   Assets/AssetBundles/Cards/2_of_clubs.png.meta
+#	new file:   Assets/AssetBundles/Cards/2_of_diamonds.png
+#	new file:   Assets/AssetBundles/Cards/2_of_diamonds.png.meta
+#	new file:   Assets/AssetBundles/Cards/2_of_hearts.png
+#	new file:   Assets/AssetBundles/Cards/2_of_hearts.png.meta
+#	new file:   Assets/AssetBundles/Cards/2_of_spades.png
+#	new file:   Assets/AssetBundles/Cards/2_of_spades.png.meta
+#	new file:   Assets/AssetBundles/Cards/3_of_clubs.png
+#	new file:   Assets/AssetBundles/Cards/3_of_clubs.png.meta
+#	new file:   Assets/AssetBundles/Cards/3_of_diamonds.png
+#	new file:   Assets/AssetBundles/Cards/3_of_diamonds.png.meta
+#	new file:   Assets/AssetBundles/Cards/3_of_hearts.png
+#	new file:   Assets/AssetBundles/Cards/3_of_hearts.png.meta
+#	new file:   Assets/AssetBundles/Cards/3_of_spades.png
+#	new file:   Assets/AssetBundles/Cards/3_of_spades.png.meta
+#	new file:   Assets/AssetBundles/Cards/4_of_clubs.png
+#	new file:   Assets/AssetBundles/Cards/4_of_clubs.png.meta
+#	new file:   Assets/AssetBundles/Cards/4_of_diamonds.png
+#	new file:   Assets/AssetBundles/Cards/4_of_diamonds.png.meta
+#	new file:   Assets/AssetBundles/Cards/4_of_hearts.png
+#	new file:   Assets/AssetBundles/Cards/4_of_hearts.png.meta
+#	new file:   Assets/AssetBundles/Cards/4_of_spades.png
+#	new file:   Assets/AssetBundles/Cards/4_of_spades.png.meta
+#	new file:   Assets/AssetBundles/Cards/5_of_clubs.png
+#	new file:   Assets/AssetBundles/Cards/5_of_clubs.png.meta
+#	new file:   Assets/AssetBundles/Cards/5_of_diamonds.png
+#	new file:   Assets/AssetBundles/Cards/5_of_diamonds.png.meta
+#	new file:   Assets/AssetBundles/Cards/5_of_hearts.png
+#	new file:   Assets/AssetBundles/Cards/5_of_hearts.png.meta
+#	new file:   Assets/AssetBundles/Cards/5_of_spades.png
+#	new file:   Assets/AssetBundles/Cards/5_of_spades.png.meta
+#	new file:   Assets/AssetBundles/Cards/6_of_clubs.png
+#	new file:   Assets/AssetBundles/Cards/6_of_clubs.png.meta
+#	new file:   Assets/AssetBundles/Cards/6_of_diamonds.png
+#	new file:   Assets/AssetBundles/Cards/6_of_diamonds.png.meta
+#	new file:   Assets/AssetBundles/Cards/6_of_hearts.png
+#	new file:   Assets/AssetBundles/Cards/6_of_hearts.png.meta
+#	new file:   Assets/AssetBundles/Cards/6_of_spades.png
+#	new file:   Assets/AssetBundles/Cards/6_of_spades.png.meta
+#	new file:   Assets/AssetBundles/Cards/7_of_clubs.png
+#	new file:   Assets/AssetBundles/Cards/7_of_clubs.png.meta
+#	new file:   Assets/AssetBundles/Cards/7_of_diamonds.png
+#	new file:   Assets/AssetBundles/Cards/7_of_diamonds.png.meta
+#	new file:   Assets/AssetBundles/Cards/7_of_hearts.png
+#	new file:   Assets/AssetBundles/Cards/7_of_hearts.png.meta
+#	new file:   Assets/AssetBundles/Cards/7_of_spades.png
+#	new file:   Assets/AssetBundles/Cards/7_of_spades.png.meta
+#	new file:   Assets/AssetBundles/Cards/8_of_clubs.png
+#	new file:   Assets/AssetBundles/Cards/8_of_clubs.png.meta
+#	new file:   Assets/AssetBundles/Cards/8_of_diamonds.png
+#	new file:   Assets/AssetBundles/Cards/8_of_diamonds.png.meta
+#	new file:   Assets/AssetBundles/Cards/8_of_hearts.png
+#	new file:   Assets/AssetBundles/Cards/8_of_hearts.png.meta
+#	new file:   Assets/AssetBundles/Cards/8_of_spades.png
+#	new file:   Assets/AssetBundles/Cards/8_of_spades.png.meta
+#	new file:   Assets/AssetBundles/Cards/9_of_clubs.png
+#	new file:   Assets/AssetBundles/Cards/9_of_clubs.png.meta
+#	new file:   Assets/AssetBundles/Cards/9_of_diamonds.png
+#	new file:   Assets/AssetBundles/Cards/9_of_diamonds.png.meta
+#	new file:   Assets/AssetBundles/Cards/9_of_hearts.png
+#	new file:   Assets/AssetBundles/Cards/9_of_hearts.png.meta
+#	new file:   Assets/AssetBundles/Cards/9_of_spades.png
+#	new file:   Assets/AssetBundles/Cards/9_of_spades.png.meta
+#	renamed:    Assets/QS/Abstract backgrounds/Scenes.meta -> Assets/AssetBundles/Cards/Card_Materials.meta
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/2_of_clubs.mat
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/2_of_clubs.mat.meta
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/2_of_diamonds.mat
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/2_of_diamonds.mat.meta
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/5_of_hearts.mat
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/5_of_hearts.mat.meta
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/6_of_clubs.mat
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/6_of_clubs.mat.meta
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/7_of_diamonds.mat
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/7_of_diamonds.mat.meta
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/7_of_hearts.mat
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/7_of_hearts.mat.meta
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/ace_of_clubs.mat
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/ace_of_clubs.mat.meta
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/ace_of_hearts.mat
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/ace_of_hearts.mat.meta
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/ace_of_spades2.mat
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/ace_of_spades2.mat.meta
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/jack_of_clubs2.mat
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/jack_of_clubs2.mat.meta
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/king_of_diamonds2.mat
+#	new file:   Assets/AssetBundles/Cards/Card_Materials/king_of_diamonds2.mat.meta
+#	new file:   Assets/AssetBundles/Cards/ace_of_clubs.png
+#	new file:   Assets/AssetBundles/Cards/ace_of_clubs.png.meta
+#	new file:   Assets/AssetBundles/Cards/ace_of_diamonds.png
+#	new file:   Assets/AssetBundles/Cards/ace_of_diamonds.png.meta
+#	new file:   Assets/AssetBundles/Cards/ace_of_hearts.png
+#	new file:   Assets/AssetBundles/Cards/ace_of_hearts.png.meta
+#	new file:   Assets/AssetBundles/Cards/ace_of_spades2.png
+#	new file:   Assets/AssetBundles/Cards/ace_of_spades2.png.meta
+#	new file:   Assets/AssetBundles/Cards/jack_of_clubs2.png
+#	new file:   Assets/AssetBundles/Cards/jack_of_clubs2.png.meta
+#	new file:   Assets/AssetBundles/Cards/jack_of_diamonds2.png
+#	new file:   Assets/AssetBundles/Cards/jack_of_diamonds2.png.meta
+#	new file:   Assets/AssetBundles/Cards/jack_of_hearts2.png
+#	new file:   Assets/AssetBundles/Cards/jack_of_hearts2.png.meta
+#	new file:   Assets/AssetBundles/Cards/jack_of_spades2.png
+#	new file:   Assets/AssetBundles/Cards/jack_of_spades2.png.meta
+#	new file:   Assets/AssetBundles/Cards/king_of_clubs2.png
+#	new file:   Assets/AssetBundles/Cards/king_of_clubs2.png.meta
+#	new file:   Assets/AssetBundles/Cards/king_of_diamonds2.png
+#	new file:   Assets/AssetBundles/Cards/king_of_diamonds2.png.meta
+#	new file:   Assets/AssetBundles/Cards/king_of_hearts2.png
+#	new file:   Assets/AssetBundles/Cards/king_of_hearts2.png.meta
+#	new file:   Assets/AssetBundles/Cards/king_of_spades2.png
+#	new file:   Assets/AssetBundles/Cards/king_of_spades2.png.meta
+#	new file:   Assets/AssetBundles/Cards/queen_of_clubs2.png
+#	new file:   Assets/AssetBundles/Cards/queen_of_clubs2.png.meta
+#	new file:   Assets/AssetBundles/Cards/queen_of_diamonds2.png
+#	new file:   Assets/AssetBundles/Cards/queen_of_diamonds2.png.meta
+#	new file:   Assets/AssetBundles/Cards/queen_of_hearts2.png
+#	new file:   Assets/AssetBundles/Cards/queen_of_hearts2.png.meta
+#	new file:   Assets/AssetBundles/Cards/queen_of_spades2.png
+#	new file:   Assets/AssetBundles/Cards/queen_of_spades2.png.meta
+#	renamed:    Assets/QS/Abstract backgrounds.meta -> Assets/AssetBundles/Game_Materials.meta
+#	new file:   Assets/AssetBundles/Game_Materials/Card.fbx
+#	new file:   Assets/AssetBundles/Game_Materials/Card.fbx.meta
+#	new file:   Assets/AssetBundles/Game_Materials/CardBack.mat
+#	new file:   Assets/AssetBundles/Game_Materials/CardBack.mat.meta
+#	new file:   Assets/AssetBundles/Game_Materials/CardFront.mat
+#	new file:   Assets/AssetBundles/Game_Materials/CardFront.mat.meta
+#	new file:   Assets/AssetBundles/Game_Materials/CardMagic.mat
+#	new file:   Assets/AssetBundles/Game_Materials/CardMagic.mat.meta
+#	renamed:    Assets/QS.meta -> Assets/AssetBundles/Game_Materials/Fonts.meta
+#	renamed:    Assets/DARK GHOST DEMO SDF.asset -> Assets/AssetBundles/Game_Materials/Fonts/DARK GHOST DEMO SDF.asset
+#	renamed:    Assets/DARK GHOST DEMO SDF.asset.meta -> Assets/AssetBundles/Game_Materials/Fonts/DARK GHOST DEMO SDF.asset.meta
+#	renamed:    Assets/DARK GHOST DEMO.otf -> Assets/AssetBundles/Game_Materials/Fonts/DARK GHOST DEMO.otf
+#	renamed:    Assets/DARK GHOST DEMO.otf.meta -> Assets/AssetBundles/Game_Materials/Fonts/DARK GHOST DEMO.otf.meta
+#	renamed:    Assets/MainMix.mixer -> Assets/AssetBundles/Game_Materials/Fonts/MainMix.mixer
+#	renamed:    Assets/MainMix.mixer.meta -> Assets/AssetBundles/Game_Materials/Fonts/MainMix.mixer.meta
+#	renamed:    Assets/TagsXtreme2 SDF.asset -> Assets/AssetBundles/Game_Materials/Fonts/TagsXtreme2 SDF.asset
+#	renamed:    Assets/TagsXtreme2 SDF.asset.meta -> Assets/AssetBundles/Game_Materials/Fonts/TagsXtreme2 SDF.asset.meta
+#	renamed:    Assets/TagsXtreme2.ttf -> Assets/AssetBundles/Game_Materials/Fonts/TagsXtreme2.ttf
+#	renamed:    Assets/TagsXtreme2.ttf.meta -> Assets/AssetBundles/Game_Materials/Fonts/TagsXtreme2.ttf.meta
+#	renamed:    Assets/tumblr_o0nfwjRmB51tzjajqo1_1280.jpg -> Assets/AssetBundles/Game_Materials/Fonts/tumblr_o0nfwjRmB51tzjajqo1_1280.jpg
+#	renamed:    Assets/tumblr_o0nfwjRmB51tzjajqo1_1280.jpg.meta -> Assets/AssetBundles/Game_Materials/Fonts/tumblr_o0nfwjRmB51tzjajqo1_1280.jpg.meta
+#	new file:   Assets/AssetBundles/Game_Materials/Table texture.mat
+#	new file:   Assets/AssetBundles/Game_Materials/Table texture.mat.meta
+#	renamed:    Assets/QS/Abstract backgrounds/Textures.meta -> Assets/AssetBundles/Textures.meta
+#	new file:   Assets/AssetBundles/Textures/CardBack.png
+#	new file:   Assets/AssetBundles/Textures/CardBack.png.meta
+#	new file:   Assets/AssetBundles/Textures/Table texture.jpg
+#	renamed:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-13.1.png.meta -> Assets/AssetBundles/Textures/Table texture.jpg.meta
+#	renamed:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-29.1.png -> Assets/AssetBundles/Textures/bkg-abs-v1-29.1.png
+#	renamed:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-29.1.png.meta -> Assets/AssetBundles/Textures/bkg-abs-v1-29.1.png.meta
+#	renamed:    Assets/QS/Abstract backgrounds/Textures/sonya-henar-tarot-back.jpg -> Assets/AssetBundles/Textures/sonya-henar-tarot-back.jpg
+#	renamed:    Assets/QS/Abstract backgrounds/Textures/sonya-henar-tarot-back.jpg.meta -> Assets/AssetBundles/Textures/sonya-henar-tarot-back.jpg.meta
+#	new file:   Assets/Prefabs.meta
+#	new file:   Assets/Prefabs/CardModel.prefab
+#	renamed:    Assets/Scenes/Mainscene.unity.meta -> Assets/Prefabs/CardModel.prefab.meta
+#	deleted:    Assets/QS/Abstract backgrounds/Documentation/Readme.txt
+#	deleted:    Assets/QS/Abstract backgrounds/Documentation/Readme.txt.meta
+#	deleted:    Assets/QS/Abstract backgrounds/Scenes/SampleScene.unity
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-1.1.png
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-1.1.png.meta
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-13.1.png
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-17.1.png
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-17.1.png.meta
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-2.1.png
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-2.1.png.meta
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-21.1.png
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-21.1.png.meta
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-5.1.png
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-5.1.png.meta
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-6.1.png
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-6.1.png.meta
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-7.1.png
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-7.1.png.meta
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-9.1.png
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/bkg-abs-v1-9.1.png.meta
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/tumblr_o0nfwjRmB51tzjajqo1_1280 rotate.jpg
+#	deleted:    Assets/QS/Abstract backgrounds/Textures/tumblr_o0nfwjRmB51tzjajqo1_1280 rotate.jpg.meta
+#	modified:   Assets/Scenes.meta
+#	renamed:    Assets/Scenes/Mainscene.unity -> Assets/Scenes/Main.unity
+#	renamed:    Assets/QS/Abstract backgrounds/Scenes/SampleScene.unity.meta -> Assets/Scenes/Main.unity.meta
+#	renamed:    Assets/Scenes/SampleScene.unity -> Assets/Scenes/StartScene.unity
+#	renamed:    Assets/Scenes/SampleScene.unity.meta -> Assets/Scenes/StartScene.unity.meta
+#	new file:   Assets/Scripts.meta
+#	new file:   Assets/Scripts/CardModel.cs
+#	new file:   Assets/Scripts/CardModel.cs.meta
+#	new file:   Assets/Scripts/Deck.cs
+#	new file:   Assets/Scripts/Deck.cs.meta
+#	new file:   Assets/Scripts/DeckViews.cs
+#	new file:   Assets/Scripts/DeckViews.cs.meta
+#	renamed:    Assets/Mainmenu.cs -> Assets/Scripts/Mainmenu.cs
+#	renamed:    Assets/Mainmenu.cs.meta -> Assets/Scripts/Mainmenu.cs.meta
+#	new file:   Assets/Scripts/PlayerController.cs
+#	new file:   Assets/Scripts/PlayerController.cs.meta
+#	renamed:    Assets/Settingsmenu.cs -> Assets/Scripts/Settingsmenu.cs
+#	renamed:    Assets/Settingsmenu.cs.meta -> Assets/Scripts/Settingsmenu.cs.meta
+#	modified:   Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+#	new file:   Packages/manifest.json
+#	new file:   ProjectSettings/AudioManager.asset
+#	new file:   ProjectSettings/ClusterInputManager.asset
+#	new file:   ProjectSettings/DynamicsManager.asset
+#	new file:   ProjectSettings/EditorBuildSettings.asset
+#	new file:   ProjectSettings/EditorSettings.asset
+#	new file:   ProjectSettings/GraphicsSettings.asset
+#	new file:   ProjectSettings/InputManager.asset
+#	new file:   ProjectSettings/NavMeshAreas.asset
+#	new file:   ProjectSettings/Physics2DSettings.asset
+#	new file:   ProjectSettings/PresetManager.asset
+#	new file:   ProjectSettings/ProjectSettings.asset
+#	new file:   ProjectSettings/ProjectVersion.txt
+#	new file:   ProjectSettings/QualitySettings.asset
+#	new file:   ProjectSettings/TagManager.asset
+#	new file:   ProjectSettings/TimeManager.asset
+#	new file:   ProjectSettings/UnityConnectSettings.asset
+#	new file:   ProjectSettings/VFXManager.asset
+#	new file:   ProjectSettings/XRSettings.asset
+#
