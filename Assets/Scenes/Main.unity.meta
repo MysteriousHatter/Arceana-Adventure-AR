@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/QS/Abstract backgrounds/Scenes/SampleScene.unity.meta
+guid: 788539be78599504d97937417f2fc1c8
+=======
 guid: 9fc0d4010bbf28b4594072e72b8655ab
+>>>>>>> fd50ab0c6a2e6f1de65254195381efeb293d798a:Assets/Scenes/Main.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
