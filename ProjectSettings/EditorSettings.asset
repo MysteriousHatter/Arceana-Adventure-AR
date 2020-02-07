@@ -4,15 +4,6 @@
 EditorSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 8
-<<<<<<< HEAD
-  m_ExternalVersionControlSupport: Visible Meta Files
-  m_SerializationMode: 2
-  m_LineEndingsForNewScripts: 0
-  m_DefaultBehaviorMode: 0
-  m_PrefabRegularEnvironment: {fileID: 0}
-  m_PrefabUIEnvironment: {fileID: 0}
-  m_SpritePackerMode: 4
-=======
   m_ExternalVersionControlSupport: Hidden Meta Files
   m_SerializationMode: 2
   m_LineEndingsForNewScripts: 2
@@ -20,17 +11,12 @@ EditorSettings:
   m_PrefabRegularEnvironment: {fileID: 0}
   m_PrefabUIEnvironment: {fileID: 0}
   m_SpritePackerMode: 0
->>>>>>> fd50ab0c6a2e6f1de65254195381efeb293d798a
   m_SpritePackerPaddingPower: 1
   m_EtcTextureCompressorBehavior: 1
   m_EtcTextureFastCompressor: 1
   m_EtcTextureNormalCompressor: 2
   m_EtcTextureBestCompressor: 4
-<<<<<<< HEAD
-  m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd;asmref
-=======
   m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd;asmdef;rsp;asmref
->>>>>>> fd50ab0c6a2e6f1de65254195381efeb293d798a
   m_ProjectGenerationRootNamespace: 
   m_CollabEditorSettings:
     inProgressEnabled: 1

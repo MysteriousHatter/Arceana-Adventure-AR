@@ -3,10 +3,7 @@
 --- !u!11 &1
 AudioManager:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD
-=======
   serializedVersion: 2
->>>>>>> fd50ab0c6a2e6f1de65254195381efeb293d798a
   m_Volume: 1
   Rolloff Scale: 1
   Doppler Factor: 1
@@ -19,7 +16,4 @@ AudioManager:
   m_AmbisonicDecoderPlugin: 
   m_DisableAudio: 0
   m_VirtualizeEffects: 1
-<<<<<<< HEAD
-=======
   m_RequestedDSPBufferSize: 1024
->>>>>>> fd50ab0c6a2e6f1de65254195381efeb293d798a
