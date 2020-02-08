@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/AssetBundles/Materials/CardBack.mat.meta
 guid: a39ea9ed94ac7fd4e97fee67be45154b
+=======
+guid: 525657b35a1c27a4686c008d7cd2ac13
+>>>>>>> 58884c672b67ac5c62c241b9a6b6a4e7115f7716:Assets/AssetBundles/Materials/Skybox.mat.meta
+=======
+guid: a39ea9ed94ac7fd4e97fee67be45154b
+>>>>>>> 58884c672b67ac5c62c241b9a6b6a4e7115f7716
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
