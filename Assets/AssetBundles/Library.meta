@@ -1,21 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD:Assets/AssetBundles/Library.meta
 guid: 760d4bd7447b6534e96545846ef66163
-=======
-guid: 7889e850d619b1d4eada2e8dfef5075f
->>>>>>> d60d1e34a05293998a6e8ffc5256bed9ba3621c1:Assets/AssetBundles/Library/Fonts.meta
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD:Assets/AssetBundles/Library.meta
-guid: 760d4bd7447b6534e96545846ef66163
-=======
-guid: 08bb955298f206348aaf9c54d3c4af86
->>>>>>> 58884c672b67ac5c62c241b9a6b6a4e7115f7716:Assets/AssetBundles/Materials.meta
-=======
-guid: 760d4bd7447b6534e96545846ef66163
->>>>>>> 58884c672b67ac5c62c241b9a6b6a4e7115f7716
->>>>>>> d60d1e34a05293998a6e8ffc5256bed9ba3621c1
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
