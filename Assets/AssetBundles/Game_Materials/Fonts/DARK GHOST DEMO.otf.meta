@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d6ef9c18855e8824bb76d2062201568e
+guid: e902fc7cd66a0354d9aa3d9697a0aec4
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -11,7 +11,8 @@ TrueTypeFontImporter:
   fontName: DARK GHOST DEMO
   fontNames:
   - DARK GHOST DEMO
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d6ef9c18855e8824bb76d2062201568e, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
