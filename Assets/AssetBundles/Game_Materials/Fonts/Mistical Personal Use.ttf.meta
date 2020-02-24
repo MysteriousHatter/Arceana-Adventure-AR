@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 4ec4c69778262a44f9af02a1f597dade
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mistical Personal Use
+  fontNames:
+  - Mistical Personal Use
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9ddd3721d711d5d419bdd6405ec4e1a8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

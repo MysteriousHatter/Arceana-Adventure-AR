@@ -39,7 +39,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7771141033995801913}
-  m_Mesh: {fileID: 970418386563953592, guid: 9b3e441fe7a8ec546867cf0d9bcde3ea, type: 3}
+  m_Mesh: {fileID: 970418386563953592, guid: 1a633c2eafad295439056b1b142d91ef, type: 3}
 --- !u!23 &7771141033998044545
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -57,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a39ea9ed94ac7fd4e97fee67be45154b, type: 2}
+  - {fileID: 2100000, guid: b4f68e2090ef18246b028730cd46b7a7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 7771141033992828661}
   - component: {fileID: 683967954275321134}
   m_Layer: 0
-  m_Name: CardModel1
+  m_Name: CardModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,8 +107,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7771141033996003865}
   m_LocalRotation: {x: 0, y: 0.9999966, z: 0, w: 0.002618082}
-  m_LocalPosition: {x: -0.442, y: 0.254, z: -0.15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.523, y: 0, z: 0}
+  m_LocalScale: {x: 0.9, y: 0.7, z: 1}
   m_Children:
   - {fileID: 7771141033996256859}
   m_Father: {fileID: 0}
@@ -121,7 +121,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7771141033996003865}
-  m_Mesh: {fileID: 7711007791139407546, guid: 9b3e441fe7a8ec546867cf0d9bcde3ea, type: 3}
+  m_Mesh: {fileID: 7711007791139407546, guid: 1a633c2eafad295439056b1b142d91ef, type: 3}
 --- !u!23 &7771141033998281169
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -139,7 +139,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43e23f085a149b143adcfc0eff482b22, type: 2}
+  - {fileID: 2100000, guid: b4f68e2090ef18246b028730cd46b7a7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -202,13 +202,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialDirectory:
-  - {fileID: 2100000, guid: 6b2b52eaf48f9b54db159ed2fec89a49, type: 2}
-  - {fileID: 2100000, guid: 70da878f871209b4ba813cececdbdcba, type: 2}
-  - {fileID: 2100000, guid: 3a8bb7cbea690d942866942a7cabbd4d, type: 2}
-  - {fileID: 2100000, guid: 62e495d093a0f0e47bd3c41d8acbdd7c, type: 2}
-  - {fileID: 2100000, guid: 92ab03d1f6c93be4796f772b03f31a75, type: 2}
-  - {fileID: 2100000, guid: 268ba90a57238364c8487198cde93369, type: 2}
-  - {fileID: 2100000, guid: 3c2ce936259b8584ab1c62628944c9e6, type: 2}
-  - {fileID: 2100000, guid: 312eff60a5583c0479f3fd6e86a44704, type: 2}
-  - {fileID: 2100000, guid: 43e23f085a149b143adcfc0eff482b22, type: 2}
-  - {fileID: 2100000, guid: 081c00b63354fd642bcd0a62ebed178d, type: 2}
+  - {fileID: 2100000, guid: 53b352068bbaa4244bb85688cb7bc5b5, type: 2}
+  - {fileID: 2100000, guid: 1894d488389e92345ba3e09d6be598ca, type: 2}
+  - {fileID: 2100000, guid: cbd5d402281350c4183730d5c1d5c80f, type: 2}
+  - {fileID: 2100000, guid: db9395e1d460f4e4480a1068bf1df7fc, type: 2}
+  - {fileID: 2100000, guid: 72e13c6891d236e47aa0efb682b568b1, type: 2}
+  - {fileID: 2100000, guid: 8a4854eadeed0fd40bf3934b37c817d9, type: 2}
+  - {fileID: 2100000, guid: 8aa99fc8d866c7b4f804855432d92032, type: 2}
+  - {fileID: 2100000, guid: c42c1a005a55958498decc4345019352, type: 2}
+  - {fileID: 2100000, guid: 027b7f9bf0d921f48aeec38e5a2e4f06, type: 2}
+  - {fileID: 2100000, guid: 60f7195796b70494dbbcfad1edb95636, type: 2}
+  - {fileID: 2100000, guid: b7ce8cfe981969d45932f844baf47d37, type: 2}
+  - {fileID: 2100000, guid: 28898a64de3e92344965cbb38b43bdab, type: 2}
+  - {fileID: 2100000, guid: e35a8999b5a407f46b91482c1f8b8e0f, type: 2}
+  - {fileID: 2100000, guid: 778992cca0c6b6345820e6ccbc040639, type: 2}
+  - {fileID: 2100000, guid: 12096736027b1aa42a1b8b8c72ec59e3, type: 2}
+  - {fileID: 2100000, guid: a60106d337e0d8c4f8a8e9e89a375639, type: 2}
+  - {fileID: 2100000, guid: 96ef09f3476a14e4dbcaad09a21aa246, type: 2}
+  - {fileID: 2100000, guid: a0b5a963b3550054ba8d215cdbb7da62, type: 2}
+  - {fileID: 2100000, guid: 07a29aaa96330014eb8a4960e795bdfc, type: 2}
+  - {fileID: 2100000, guid: 43feb434c1d6d974784f5b4545d1f1e6, type: 2}
+  - {fileID: 2100000, guid: 76df62cd98ea6ea498bba33e016e0ce2, type: 2}
+  - {fileID: 2100000, guid: 250ca013e0a0f61498727baf7cda2d36, type: 2}
+  isPick: 0
+  isDecoration: 0

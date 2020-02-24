@@ -1388,9 +1388,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Arcana Adventures '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 90f106ba8c811884699ec244b5a4b152, type: 2}
-  m_sharedMaterial: {fileID: 21295776540299216, guid: 90f106ba8c811884699ec244b5a4b152,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1432,7 +1431,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: 7
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -8169,7 +8168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07fff91ff17ee244991254ccdbc4ad9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: 247072b48faad4345a6787715b753a2c, type: 2}
+  audioMixer: {fileID: 24100000, guid: cabbdc3a6000dfa4b82830e787a7005b, type: 2}
   slider: {fileID: 432764071}
   resolutiondrop: {fileID: 149893430}
 --- !u!114 &975282421
@@ -8266,7 +8265,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Options
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 90f106ba8c811884699ec244b5a4b152, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 21295776540299216, guid: 90f106ba8c811884699ec244b5a4b152,
     type: 2}
   m_fontSharedMaterials: []
@@ -8520,7 +8519,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: How to play
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 90f106ba8c811884699ec244b5a4b152, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 21295776540299216, guid: 90f106ba8c811884699ec244b5a4b152,
     type: 2}
   m_fontSharedMaterials: []

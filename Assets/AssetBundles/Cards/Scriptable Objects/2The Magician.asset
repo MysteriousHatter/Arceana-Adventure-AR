@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c4addc1ba57e24fa61b0aec47a5324, type: 3}
+  m_Name: 2The Magician
+  m_EditorClassIdentifier: 
+  cNumber: 2
+  cName: The Magician
+  meaning: 'Meaning: When the Magician appears in a spread, it points to the talents,
+    capabilities and resources at the querent''s disposal to succeed. The message
+    is to tap into one''s full potential rather than holding back, especially when
+    there is a need to transform something.'
+  upright: "Upright: (Determined, Resourceful, Strong and Powerful, Dexterity, Skilled)\r\nHistory:\r\nThe
+    Magician usually signifies a time in your life when you have the power to manifest
+    the outcome you want. If it is referring to other people in your life it usually
+    refers to someone you can learn from whose ability and wisdom will impress you.If
+    you are single The Magician indicates that now is a great time to meet someone
+    new. Your partner will be serious about you, has good intentions and will treat
+    you well.You might be presented with an opportunity to mentor someone or be mentored
+    by someone who will give you the benefit of their experience. "
+  downright: "Reversed: (Deceit, Lack of energy, Communication Blocks, Confusio, Ill
+    intentions)\r\nHistory:\r\nA person in your life who presents themselves as knowledgeable
+    and trustworthy may actually be trying to use you or manipulate you.It can also
+    indicate that partner/lover who appears to be trustworthy, may be using their
+    influence over you to manipulate you for their own selfish reasons. The Magician
+    reversed can indicate deceitful people around you so if you are holding back on
+    a new venture because you are unsure you can trust the other people involved,
+    this may be an indicator that you are right to be concerned. If you are stuck
+    in a financial rut you will need to take a proactive approach to change your circumstances.\r\n"
+  CardImg: {fileID: 21300000, guid: 0821cc4e2636155478fa7e2815e04378, type: 3}
+  card: {fileID: 0}

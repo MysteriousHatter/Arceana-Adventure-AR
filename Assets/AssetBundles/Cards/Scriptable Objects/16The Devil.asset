@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c4addc1ba57e24fa61b0aec47a5324, type: 3}
+  m_Name: 16The Devil
+  m_EditorClassIdentifier: 
+  cNumber: 16
+  cName: The Devil
+  meaning: "Meaning: It represents being seduced by the material world and physical
+    pleasures. Also living in fear, domination and bondage, being caged by an overabundance
+    of luxury, discretion should be used in personal and business matters.\r\n"
+  upright: "Upright:(Temptation, Unhealthy relationships, Enslavement, Materialism,
+    Bondage, Fear, Feeling trapped)\r\nHistory:\r\n\r\nWith this Major Arcana card
+    in your Tarot spread you may feel as though outside influences or forces beyond
+    your control are restricting you, leaving you feeling powerless and victimised.
+    However, this is the illusion The Devil creates. You are in control of your own
+    destiny and are not bound by anything other than your own attitudes and behaviour.
+    Don\u2019t give up and don\u2019t give away your power. You don\u2019t have to
+    tolerate negativity, criticism, manipulation or abuse from anyone. There are always
+    options and there is always something positive you can do to improve your situation
+    no matter how hopeless things may seem on the surface.out of control. \r\n"
+  downright: "Reversed:(Freedom from restraints, Breaking from addictions, Divorce)\r\nHistory:\r\nYou
+    want to be free from these problems and you are starting to get the motivation
+    to change your circumstances. It can also indicate that you are getting a new
+    perspective on issues that you felt powerless to change previously. The changes
+    you want to make may not be easy but they are necessary for you if you want to
+    have a happy life in the future and you are beginning to realise what you have
+    to do. The Devil Tarot card reversed can also indicate a near miss with a negative,
+    harmful or dangerous situation or person. The important message this Major Arcana
+    card brings is to be grateful that you avoided it, learn from it and move forward.
+    Do not fall back into the old bad or risky behaviours that led you so close to
+    danger. Don\u2019t get cocky and think you are invincible if you managed to dodge
+    the bullet. Appreciate your good fortune, but don\u2019t push it!\r\n"
+  CardImg: {fileID: 21300000, guid: 5526e10c8e8318140a39f413a9b76c52, type: 3}
+  card: {fileID: 0}

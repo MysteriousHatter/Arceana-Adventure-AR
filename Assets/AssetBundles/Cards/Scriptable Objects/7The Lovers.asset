@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c4addc1ba57e24fa61b0aec47a5324, type: 3}
+  m_Name: 7The Lovers
+  m_EditorClassIdentifier: 
+  cNumber: 7
+  cName: The Lovers
+  meaning: 'Meaning: The Lovers represent relationships and choices. Often an aspect
+    of the queen''s life will have to be sacrificed; a bachelor(ette)''s lifestyle
+    may be sacrificed and a relationship gained or one potential partner may be chosen
+    while another is turned down.'
+  upright: "Upright:(Falling in love, Commitment, Choices, Being at a crossroads,
+    Partnerships)\r\nHistory:\r\nThe Lovers signifies perfect union, harmony, love
+    and attraction. The Lovers can represent finding the balance within oneself. You
+    are learning to understand yourself, your own personal moral code and what you
+    value in life. This will bring harmony and balance to your life.  In general when
+    The Lovers Tarot card appears it is an indication that you have major choices
+    to make or are faced with a dilemma. You may be feeling uncertain about situations,
+    people in your life or what direction you should take. These are important decisions
+    you are faced with. Don\u2019t automatically go for the easy road, make sure you
+    have all the information and make the right decision. Even if it seems like a
+    difficult path, it will lead you on to greater things.\r\n"
+  downright: "Reversed:(Separation, Infidelity, Relationship issues, Broken relationship)\r\nHistory:\r\nThe
+    Lovers Tarot reversed indicates that you may be struggling to take ownership of
+    the decisions you\u2019ve made. This is causing conflict within you. You may be
+    feeling uncertain of the direction your life is going in. You need to remember
+    that you are the master of your own destiny. Don\u2019t try to blame the universe
+    if your situation is a result of choices that you\u2019ve made. Instead be accountable,
+    learn from past mistakes and let them go. If you do that you will be able to move
+    forward in a position direction. You will develop a deeper understanding of your
+    true self, your values and your beliefs and avoid repeating the same mistakes
+    in the future.\r\n"
+  CardImg: {fileID: 21300000, guid: 3f852248350893247854f57a3b186303, type: 3}
+  card: {fileID: 0}

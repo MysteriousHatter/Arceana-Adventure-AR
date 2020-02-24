@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c4addc1ba57e24fa61b0aec47a5324, type: 3}
+  m_Name: 20The Sun
+  m_EditorClassIdentifier: 
+  cNumber: 20
+  cName: The Sun
+  meaning: "Meaning: \r\nThe card portends good fortune, happiness, joy and harmony.
+    It represents the universe coming together and agreeing with your path and aiding
+    forward movement into something greater.\r\n"
+  upright: "Upright:(Joy, Enlightenment, Material happiness, Marriage, Success, Vitality)\r\nHistory:\r\nThe
+    Sun Tarot card is the Major Arcana card of positivity, optimism, freedom and fun.
+    When The Sun appears in an upright position, things should be going well for you
+    as this card also represents success and enthusiasm. You will find that people
+    are drawn to the happy vibes and positive energy you are giving out and you will
+    bring light and joy to everyone and everything you come into contact with. You
+    will be feeling carefree, liberated and self-assured. It is also the card of truth
+    so if you have been the victim of lies or deception, The Sun is coming to shine
+    its light on the deceit to reveal the truth and the perpetrators of the lies.
+    The Sun Tarot card in an upright position also signifies good luck. Any problems
+    you have been experiencing will melt away with the warmth this card brings. It
+    can also indicate travel to a country with a warm climate.\r\n\r\n"
+  downright: "Reversed:(False impressions, Lack of clarity, Low Vitality, Sadness)\r\nHistory:\r\nThe
+    Sun reversed does not usually mean that your situation or circumstances are all
+    that bad but that you are feeling pessimistic and focusing on the negative which
+    is affecting your outlook on life. It can signify a lack of enthusiasm for life,
+    being unclear on the right path to take or being unable to see the way forward.
+    This Major Arcana card may show that you are letting negative energy/thoughts
+    close you off to the happiness and joy that is all around you. You have the power
+    to change this by simply allowing yourself to be open to the positive things that
+    are coming your way and by finding gratitude for the good things in your life.
+    \ The Sun reversed can also be an indicator of being overly enthusiastic or confident
+    to the point that it becomes a negative trait.\r\n"
+  CardImg: {fileID: 21300000, guid: e3707bb2f3b562a41abe87ba4f26b3a3, type: 3}
+  card: {fileID: 0}

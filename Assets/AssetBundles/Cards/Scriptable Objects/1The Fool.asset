@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c4addc1ba57e24fa61b0aec47a5324, type: 3}
+  m_Name: 1The Fool
+  m_EditorClassIdentifier: 
+  cNumber: 1
+  cName: The Fool
+  meaning: 'Meaning: represents new beginnings; having faith in the future; being
+    inexperienced, not knowing what to expect; having beginners luck; improvisation;
+    believing in the universe.'
+  upright: "Upright: (Beginnings, Spontaneity, Originality, Innocence, Leap of Faith)\r\nHIstory:\r\nSignifies
+    a new beginning.Your new adventure will bring you along a path which may require
+    you to make a leap of faith but you will grow as a result of this new experience.
+    This new adventure could be a literal new adventure, like travelling to a place
+    you\u2019ve never been before.If the Fool appears, be prepared for fun-filled
+    romance but be careful not to miss true love if it comes your way during this
+    time.For current projects it indicates fresh new ideas and being reinvigorated
+    with energy. The Fool indicates big opportunities for advancement. You will be
+    eager to try many different approaches, allow yourself to do this.\r\n"
+  downright: "Reversed: (Naivety, Poor judgement, Folly, Lack of direction, Stupidity,
+    Chaos)\r\nHistory:\r\nSignifies a new beginning however, the beginning is something
+    you may be reluctant to jump into. It can signify being irrational, lack of fun
+    and lack of faith or hope. The Fool reversed in love can indicate that your pursuit
+    of adventure may be holding you back from having the kind love you really want
+    or causing uncertainty in your current relationship.Financially, the fool reversed
+    shows some potentially promising financial opportunities but exercise caution
+    and do your homework before committing to anything. Career-wise you may be becoming
+    restless in your current position or thinking of going out on your own. \r\n"
+  CardImg: {fileID: 21300000, guid: 989528c880740454d9414c6a97e408b6, type: 3}
+  card: {fileID: 0}

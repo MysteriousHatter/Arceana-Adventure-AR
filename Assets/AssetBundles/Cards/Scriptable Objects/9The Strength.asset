@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c4addc1ba57e24fa61b0aec47a5324, type: 3}
+  m_Name: 9The Strength
+  m_EditorClassIdentifier: 
+  cNumber: 9
+  cName: The Strength
+  meaning: "Meaning: Strength predicts the triumphant conclusion to a major life problem,
+    situation or temptation through strength of character. It is a very happy card
+    if you are fighting illness or recovering from injury.\r\n"
+  upright: "Upright:(Virility, Inner strength, Potency, Vitality, Confidence, Self-belief,
+    Enjoying power)\r\nHistory:\r\nThe Strength Tarot card is the Major Arcana card
+    of inner strength. It represents mastering raw emotions in order to bring calm
+    to yourself or a situation. It is similar to the Chariot in that it represents
+    overcoming challenges. However, the Strength card usually refers to inner challenges.
+    Overcoming the obstacles we face in relation to our own doubts, fears and anxieties.
+    In a general context this card indicates that you are learning to master your
+    fears and anxieties, to be courageous and daring. You have all the skills you
+    need to be successful, the focus now is to conquer your inner worries and believe
+    in yourself. \u200B\r\n"
+  downright: "Reversed:(Hedonism, Self-doubt, Lacking courage, Lack of self-control,
+    Vanity)\r\nHistory:\r\nWhen the Strength Tarot card appears reversed in your Tarot
+    reading, it indicates that you are not tapping into the inner strength you have.
+    It does not indicate a lack of strength so much as it indicates that you are letting
+    fear, anxiety or low self-esteem paralyse you. Now more than ever you need to
+    summon your inner resolve and self-belief to pull you out of your current situation.
+    You have the strength you need to get over your obstacles. You have simply lost
+    touch with it and that disconnection is leaving you feeling weak, vulnerable and
+    lacking confidence. Focus on the positive, stay away from people who make you
+    feel inadequate and spend time with people who build you up. \r\n"
+  CardImg: {fileID: 21300000, guid: 524001afe64420747826c06057620e62, type: 3}
+  card: {fileID: 0}

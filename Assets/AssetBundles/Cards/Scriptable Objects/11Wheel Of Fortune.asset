@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c4addc1ba57e24fa61b0aec47a5324, type: 3}
+  m_Name: 11Wheel Of Fortune
+  m_EditorClassIdentifier: 
+  cNumber: 11
+  cName: Wheel of Fortune
+  meaning: "Meaning: A common aspect to most interpretations of this card within a
+    reading is to introduce an element of change in the querent's life, such change
+    being in station, position or fortune: such as the rich becoming poor, or the
+    poor becoming rich.\r\n"
+  upright: "Upright:(Changes, Opportunity, Luck, Destiny, Winning, Chance)\r\nHistory:\r\nThe
+    Wheel of Fortune is generally an indicator of luck or destiny and it is a Major
+    Arcana signifier of change. When the Wheel of Fortune appears upright in your
+    Tarot reading big changes are coming. These changes should be for your greater
+    good, but remember not all change is easy even if it\u2019s leading you to your
+    destiny! The upright Wheel of Fortune signals that the universe is working in
+    your favour to help you reach your goals. Make sure you make the most of this
+    time by focusing your intention on what you truly want! Know that the universe
+    has a plan for you even if that plan is not clear to you at this point. \r\n"
+  downright: "Reversed:(Mishap, Unforeseen setback, Bad luck, Misfortune, Disappointment)\r\nHistory:\r\n\r\nThe
+    reversed Wheel of Fortune is a strong indicator that there is a challenging time
+    ahead and that the change coming may be difficult to adjust to. It can represent
+    that things had been going well and have suddenly and quite unexpectedly fallen
+    apart. This sudden deterioration can leave you feeling powerless, out of control
+    and as if external forces are working against you. However, that is not the case.
+    While there may be some outside factors, the current situation is most likely
+    a result of decisions you made. You will need to take control of your situation
+    and ownership of your choices in order to learn from this situation. \r\n"
+  CardImg: {fileID: 21300000, guid: 43102a56a21be7f4e9ff88c4d6203cff, type: 3}
+  card: {fileID: 0}

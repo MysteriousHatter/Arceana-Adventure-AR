@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c4addc1ba57e24fa61b0aec47a5324, type: 3}
+  m_Name: 3High Priestess
+  m_EditorClassIdentifier: 
+  cNumber: 3
+  cName: High Priestess
+  meaning: 'Meaning: High Priestess is a card of mystery, stillness and passivity.
+    This card suggests that it is time to retreat and reflect upon the situation and
+    trust your inner instincts to guide you through it. Things around you are not
+    what they appear to be right now.'
+  upright: "Upright: (Spiritual Insight, Hidden Talents, Intuition, Mystery)\r\nHistory:\r\nThe
+    High Priestess possesses intuition, mystery and sensuality combined with common
+    sense. When the High Priestess appears in a tarot reading she indicates that now
+    is the time to trust your instincts and go with your gut feeling. Pay attention
+    to your dreams and the signs and symbols the universe is sending you when this
+    Major Arcana trump card appears in your tarot reading.The High Priestess Tarot
+    card is an indicator of creativity and inspiration for those involved in the arts.
+    For students, if The High Priestess Tarot card appears a good teacher may be coming
+    into your life to help you in your studies\r\n"
+  downright: "Reversed: (Secrest, Information Withheld, Lack of personal Harmony)\r\nHistory:\r\nYou
+    may be more focused on the opinions of others or winning other people\u2019s approval
+    than your own inner wisdom. It can also indicate that you are neglecting your
+    own needs to take care of others. You need to take the time to connect with yourself
+    and listen to your inner voice. Trust yourself. You have all the wisdom and knowledge
+    you need.  Financially speaking, make sure you understand all the conditions before
+    taking out loans or signing contracts, again somebody may be being dishonest with
+    you. Trust your intuition if it doesn\u2019t feel right.\r\n"
+  CardImg: {fileID: 21300000, guid: e25512145fdee9d4baae8c4c74f15a40, type: 3}
+  card: {fileID: 0}

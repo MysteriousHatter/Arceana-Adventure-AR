@@ -4,25 +4,29 @@ using UnityEngine;
 
 public class CardModel : MonoBehaviour
 {
+    
+    static List<CardModel> waitingCards;
+
     public Material[] materialDirectory;
     public bool isPick = false;
     public bool isDecoration = false;
 
     MeshRenderer myMesh;
-    int cardIndex=7;
+    int cardIndex;
     bool inPickingPhase = true;
 
     void Start()
     {
         myMesh = gameObject.GetComponent<MeshRenderer>();
         ShowFace();
+        waitingCards = new List<CardModel>();
     }
 
     void Update()
     {
         if (isDecoration)
         {
-            this.transform.Rotate(90* Time.deltaTime, 90 * Time.deltaTime, 90 * Time.deltaTime);
+            this.transform.Rotate(0, 90 * Time.deltaTime, 0);
         }     
     }
 
@@ -84,9 +88,36 @@ public class CardModel : MonoBehaviour
         {
             this.transform.position += new Vector3(0, pickSpace);
             isPick = true;
+
+            if (waitingCards.Count < 3)
+            {
+                waitingCards.Add(this); // add the current card to the waiting List              
+            }
+
+            /* Add the card to the waiting List
+             * Remove the first card of the List
+             * Update the card position */
+            else
+            {
+                waitingCards.Add(this);
+                CardModel temp = waitingCards[0];
+                waitingCards.RemoveAt(0);
+
+                temp.isPick = false;
+                temp.transform.position += new Vector3(0, -pickSpace);                
+            }        
         }
         else // de_pick
         {
+            // Remove the card from the waiting List
+            foreach (CardModel cModel in waitingCards)
+            {
+                if (cModel.cardIndex == this.cardIndex)
+                {
+                    waitingCards.Remove(cModel);
+                    break;
+                }
+            }
             this.transform.position += new Vector3(0, -pickSpace);
             isPick = false;
         }
@@ -104,6 +135,11 @@ public class CardModel : MonoBehaviour
             //Click to flip card
             Flip();
         }             
+    }
+
+    public void setEmptyQueue()
+    {
+        waitingCards.Clear();
     }
 
 

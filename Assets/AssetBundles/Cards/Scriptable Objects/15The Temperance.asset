@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c4addc1ba57e24fa61b0aec47a5324, type: 3}
+  m_Name: 15The Temperance
+  m_EditorClassIdentifier: 
+  cNumber: 15
+  cName: The Temperance
+  meaning: 'Meaning: This card indicates that you should learn to bring about balance,
+    patience and moderation in your life. You should take the middle road, avoiding
+    extremes and maintain a sense of calm.'
+  upright: "Upright:(Connecting with your guides, Balance, Moderation, Harmony, Alchemy,
+    Looking for divine intervention)\r\nHistory:\r\nYou have learned not to allow
+    yourself to be dragged into other people\u2019s conflict or to let minor issues
+    knock you off balance. Instead you adapt to the situations with a clear mind and
+    calm heart and keep your balance. Temperance can also signify that you have found
+    peace and tranquillity and you are feeling content. Temperance indicates that
+    you are truly in touch with who you are inside, what you value and your own moral
+    compass and you are finding it easier to figure out your aspirations and set yourself
+    goals. \r\n"
+  downright: "Reversed:Disharmony, Imbalance, Onset of illness, Lack of patience\r\nHistory:\r\nThe
+    Temperance Tarot card in a reversed position may be telling you that you have
+    lost touch with your own inner calm and tranquillity which can lead you to seek
+    gratification in risky, harmful ways. Temperance reversed can also indicate a
+    lack of harmony with the people in your life so you may find yourself clashing
+    with those closest to you or allowing yourself to be dragged into other people\u2019s
+    drama. You may be lacking perspective and not looking at the bigger picture. You
+    would do well to take a step back and take a look at how you are behaving, examine
+    the root causes and work on resolving them.\r\n"
+  CardImg: {fileID: 21300000, guid: 9da92a408ef8f704f912491703a2d89e, type: 3}
+  card: {fileID: 0}

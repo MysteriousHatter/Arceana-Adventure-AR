@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c4addc1ba57e24fa61b0aec47a5324, type: 3}
+  m_Name: 10The Hermit
+  m_EditorClassIdentifier: 
+  cNumber: 10
+  cName: The Hermit
+  meaning: "Meaning: The Hermit suggests that you are in a phase of introspection
+    where you are drawing your attention inwards and looking for answers within. You
+    are in need of a period of inner reflection, away from the current demands of
+    your position.\r\n\r\n"
+  upright: "Upright:(Soul-searching, Introspection, Solitude, Withdrawn from society,
+    Meditation, Self-reflection)\r\nHistory:\r\nThe Hermit Tarot card in an upright
+    position generally indicates that you are entering a period of soul searching,
+    self-reflection and spiritual enlightenment. You may find that you need time alone
+    to gain a deeper understanding of yourself, to remove yourself from the daily
+    grind in order to discover your true spiritual self, contemplate your existence,
+    your direction in life or your values. The Hermit can also indicate isolating
+    yourself or withdrawing into oneself in order to recover from a difficult situation.
+    This Major Arcana trump card can suggest that you may be going through an anti-social
+    phase where you just don\u2019t want to interact with people as much as you normally
+    would. The Hermit is wise, mature and knowledgeable and may be an indication of
+    someone seeking the services of a counsellor or psychiatrist.  This is a time
+    to focus on yourself and meeting your own needs.  \r\n"
+  downright: "Reversed:(Misfit, Withdrawing from loved ones, Exile, Sadness, Loneliness)\r\nHistory:\r\nThe
+    Hermit Tarot card reversed suggests that you have withdrawn too much from the
+    world or are becoming too reclusive. Solitude might have been necessary or good
+    for you at one point but The Hermit reversed is telling you that it is time to
+    come back to the world and the people around you. Taking time for soul-searching
+    and self-reflection can be a great thing in moderation but too much can be damaging.
+    At some point, you do need to draw a line under things and move forward, this
+    Major Arcana card in reversed position indicates that now is that time. It can
+    also indicate that you may be feeling shy or apprehensive about being in social
+    situations. \r\n\r\n"
+  CardImg: {fileID: 21300000, guid: e2a289393f94d9c4e99f1e29a52855e3, type: 3}
+  card: {fileID: 0}

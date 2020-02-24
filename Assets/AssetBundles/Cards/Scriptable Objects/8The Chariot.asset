@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c4addc1ba57e24fa61b0aec47a5324, type: 3}
+  m_Name: 8The Chariot
+  m_EditorClassIdentifier: 
+  cNumber: 8
+  cName: The Chariot
+  meaning: 'Meaning: The Chariot is a card about overcoming conflicts and moving forward
+    in a positive direction. One needs to keep going on and through sheer hard work
+    and commitment he will be victorious.'
+  upright: "Upright:( Overcoming obstacles, Will power, Drive, A journey, Confidence,
+    Ambition)\r\nHistory:\r\nThe Chariot Tarot represents overcoming obstacles through
+    determination, focus and willpower. You will be feeling motivated, ambitious and
+    in control. Now is a time to go for what you really want. The Chariot is not without
+    its challenges, there may be many obstacles in your path but if you stay focused,
+    keep your composure and are confident in your abilities, you will be successful!The
+    Chariot can also indicate that you may be acting defensively or aggressively to
+    hide that you are feeling emotionally vulnerable. The Chariot represents finding
+    the balance between the heart and mind. Put any worries aside and maintain your
+    focus.\r\n"
+  downright: "Reversed:(Scattered energy, Lack of direction, Self doubt)\r\nHistory:\r\n\u200B\r\nThe
+    Chariot Tarot card reversed can indicate that you feel powerless and are lacking
+    direction. You need to take control of your own destiny and not let outside forces
+    determine your path. You need to regain your drive and determination. Consider
+    what aspects of your current situation are within your control and take proactive
+    steps to change your fate. You may be powerless, lacking in confidence and put
+    upon by others or by the circumstances of your life. This may be leading to anger,
+    frustration and uncontrolled aggression. If the people in your life are being
+    too needy and demanding you need to take back your power in a productive way.
+    Be clear about what time or resources you are prepared to dedicate to others.
+    Set your boundaries and stick to them.\r\n"
+  CardImg: {fileID: 21300000, guid: 45e0d62733eda444186fc130d336bef0, type: 3}
+  card: {fileID: 0}

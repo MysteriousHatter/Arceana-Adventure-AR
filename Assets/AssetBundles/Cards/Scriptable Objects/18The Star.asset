@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c4addc1ba57e24fa61b0aec47a5324, type: 3}
+  m_Name: 18The Star
+  m_EditorClassIdentifier: 
+  cNumber: 18
+  cName: The Star
+  meaning: "Meaning: When the Star card appears, you are likely to find yourself feeling
+    inspired. It brings renewed hope and faith and a sense that you are truly blessed
+    by the universe at this time.\r\n"
+  upright: "Upright:(Good health, Opportunities, Spirituality, Astronomy, Inspiration,
+    Hope)\r\nHistory:\r\nThe Star is a very positive omen. It is the period of calm
+    and stability that follows the storm that was The Tower. The Star indicates that
+    you have come through your tough times with a renewed sense of yourself and the
+    world around you, you are full of calm, well-balanced energy and you are open
+    to healing the wounds of the past. Whatever mental, emotional, physical or spiritual
+    issues you were experiencing are now behind you and you are ready to embrace what
+    your future holds. Trust that the universe has a plan for you and trust the feeling
+    you have that everything is going to be OK.  You will be feeling confident in
+    yourself and people will like you for who you are with this card in your Tarot
+    reading. The Star can also indicate creativity and artistic flair, so now would
+    be a great time to take up an artistic hobby.\r\n\r\n"
+  downright: "Reversed:(Despair, Missed opportunities, Disappointments, Illness)\r\nHistory:\r\nThe
+    Star can signify that you have lost your confidence, your belief in yourself and
+    your trust in your own abilities. This Major Arcana card can also be an indication
+    of feeling anxious and overwhelmed. A change of attitude is needed to resolve
+    this not necessarily a change of circumstances. Don\u2019t allow yourself to continue
+    to play the victim if you have long since left the situation in which you were
+    victimised. The Star is telling you that it\u2019s time to heal the past, draw
+    a line under it and move forward. Seek support to do this if you need to. You
+    can do anything you set your mind to, you just have to believe in yourself and
+    focus on the positive. Start small and try to find one or two things to be grateful
+    for in each day. A creative outlet might also be helpful to you if you are artistically
+    inclined. Rediscover your creative side, it will help you heal.\r\n"
+  CardImg: {fileID: 21300000, guid: 8349ecddd9a986a488871e6dac0ea5df, type: 3}
+  card: {fileID: 0}

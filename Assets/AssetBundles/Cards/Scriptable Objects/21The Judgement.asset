@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c4addc1ba57e24fa61b0aec47a5324, type: 3}
+  m_Name: 21The Judgement
+  m_EditorClassIdentifier: 
+  cNumber: 21
+  cName: The Judgement
+  meaning: "Meaning: This card is referred to as a time of resurrection and awakening,
+    a time when a period of our life comes to an absolute end making way for dynamic
+    new beginnings.\r\n"
+  upright: "Upright:(Decision making, Transition, Renewal, Redemption, Awakening,
+    Reincarnation)\r\nHistory:\r\nYou have come through your past karmic lessons with
+    increased self-awareness and you are allowing healing to take place so you can
+    move forward in a positive direction. If you have a big decision to make when
+    this Major Arcana card appears, use the karmic lessons you have learnt from the
+    past to help you make the right choice.  Judgement upright can represent a legal
+    matter or court case being resolved. If you have acted honourably and told the
+    truth, this matter should be resolved in your favour. If you have been dishonest,
+    don\u2019t expect things to go your way. You need to clear your conscience and
+    try to make amends for your misdeeds. This Major Arcana card can also signify
+    being separated from someone you love by an ocean or sea. You can expect to be
+    reunited with them soon when it appears. It can also indicate homesickness.\r\n\r\n"
+  downright: "Reversed:(Stagnation, Self-doubt, Poor logic, Poor or hasty judgement)\r\nHistory:\r\nNow
+    is the time to take action. If you delay you may lose the opportunities available
+    to you. Alternatively, this Major Arcana card in a reversed position can be a
+    sign that you may be refusing to learn the karmic lessons of the past. Or you
+    may be reproaching yourself for past mistakes so much that you are unable to see
+    the lessons to be learned from those mistakes. Judgement reversed can also be
+    a sign that you are taking your focus off your own shortcomings by being overly
+    critical of others or engaging in malicious gossip. This will only lead you to
+    trouble, try to put the focus back on fixing the issues in your own life rather
+    than judging other people for their mistakes. \r\n"
+  CardImg: {fileID: 21300000, guid: 10029dcef7e2b4748a3cc7eab50932ad, type: 3}
+  card: {fileID: 0}

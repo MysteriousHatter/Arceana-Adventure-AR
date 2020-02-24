@@ -5,7 +5,7 @@ using UnityEngine;
 public class Deck : MonoBehaviour
 {
     List<int> cards;
-
+    int cardNum = 22;
 
     // Start is called before the first frame update
     void Awake()
@@ -39,7 +39,7 @@ public class Deck : MonoBehaviour
             cards.Clear();
         }
 
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < cardNum; i++)
         {
             cards.Add(i);
         }
@@ -50,5 +50,9 @@ public class Deck : MonoBehaviour
         return cards;
     }
 
+    public int getCardNum()
+    {
+        return cardNum;
+    }
 
 }

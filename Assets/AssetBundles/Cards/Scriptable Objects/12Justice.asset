@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c4addc1ba57e24fa61b0aec47a5324, type: 3}
+  m_Name: 12Justice
+  m_EditorClassIdentifier: 
+  cNumber: 12
+  cName: The Justice
+  meaning: "Meaning: The Justice card indicates that the fairest decision will be
+    made. Justice is the sword that cuts through a situation, and will not be swayed
+    by outer beauty when deciding what is fair and just.\r\n"
+  upright: "Upright:(Fairness, Justice, Cause and effect, Balance and equilibrium,
+    Responsibility)\r\nHistory:\r\nThe Justice Tarot card relates to karmic justice,
+    legal matters and cause and effect. In a general context Justice is showing you
+    that all actions have consequences. This Major Arcana card is also a signifier
+    of legal matters being resolved in a fair and balanced matter. This is usually
+    a favourable omen if you are involved in a legal dispute. Justice is concerned
+    with truth and integrity, so you may find yourself compelled to speak the truth
+    and that you more than ever value honesty and integrity in others. \r\n"
+  downright: "Reversed:(Lack of accountability, Unfair treatment, Dishonesty, Legal
+    flaws, Imbalance)\r\nHistory:\r\nYou may feel you are being victimised or blamed
+    for something that is not your fault. Whatever the situation, you must try to
+    maintain your balance. Even if you didn\u2019t create the situation, you can choose
+    how you react to it and that can be a lesson in itself. Justice in a reversed
+    position can also be an indicator of someone trying to avoid their karma. If you
+    have played a part in creating your current situation by bad choices or actions,
+    you must be accountable. Don\u2019t try to blame others or avoid the consequences,
+    just learn from it and move forward a little wiser and more self-aware. The Justice
+    Tarot card reversed can also indicate dishonesty. If you have been caught out
+    in a lie, don\u2019t try to justify it or lie your way out of it. Just confess,
+    accept the consequences and try to draw a line under it. Justice reversed can
+    indicate someone with very hard-line or uncompromising views. \r\n"
+  CardImg: {fileID: 21300000, guid: d07a29d787151764c911f04cc0964e85, type: 3}
+  card: {fileID: 0}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c4addc1ba57e24fa61b0aec47a5324, type: 3}
+  m_Name: 19The Moon
+  m_EditorClassIdentifier: 
+  cNumber: 19
+  cName: The Moon
+  meaning: "Meaning: The Moon is a card of illusion and deception, and therefore often
+    suggests a time when something is not as it appears to be. Perhaps a misunderstanding
+    on your part, or a truth you cannot admit to yourself.\r\n"
+  upright: "Upright:(Difficult period, Insecurity, Mental confusion, Deception, Hidden
+    things, Fear)\r\nHistory:\r\nThe Moons tells you that something about a situation
+    or person in your life is not what it appears to be and you need to trust what
+    your instincts are telling you in order to see past this illusion. The Moon also
+    indicates that you should pay attention to your dreams as your subconscious may
+    be bringing your attention to some information you\u2019ve missed. The Moon can
+    also signify that you are letting your anxiety or fear overwhelm you which may
+    be having a negative effect on your outlook and causing you to suffer from mood
+    swings, instability or insecurity. It can also represent a woman\u2019s menstrual
+    cycle. The Moon can also signify dormant insecurities or repressed issues resurfacing.
+    The Moon Tarot card can represent underhanded or dodgy deals or illegal behaviour.
+    If it appears in this context it is a warning to clean your act up before your
+    behaviour is exposed. \r\n"
+  downright: "Reversed:(Unhappiness, Release of fear, Insomnia, Unusual dreams, Mysteries
+    unveiled)\r\nHistory:\r\nThis Major Arcana card may also be an indication of self-deception
+    or delusions. You may be kidding yourself about your role in creating your current
+    circumstances or you may be struggling to separate your own deception or fantasies
+    from reality. The Moon reversed can also indicate that any depression or mental
+    health issues you have been having will begin to lift and you will begin to see
+    the light again. You will work through any repressed issues or insecurities to
+    find new confidence and clarity. If you have been awaiting a decision on something,
+    The Moon reversed indicates that you will get an answer or clarity on the matter.\r\n"
+  CardImg: {fileID: 21300000, guid: 0791f2748ab3b194ca4d9892d3ceaa3e, type: 3}
+  card: {fileID: 0}

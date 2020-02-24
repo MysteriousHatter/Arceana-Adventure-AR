@@ -3,30 +3,40 @@
 [RequireComponent(typeof(Deck))]
 public class DeckViews : MonoBehaviour
 {
-    Deck deck;
-    CardModel cardModel;
-    GameObject[] cards = new GameObject[10];
-    bool isSpread = false;
-
-    public Vector3 start;
     public float cardOffset;
     public GameObject cardPref;
 
+    [SerializeField]
+    float spaceBetweenCard = 0.1f;
+
+
+    Deck deck;
+    CardModel cardModel;
+    GameObject[] cards;
+
+    Vector3 start;
+    bool isSpread = false; 
+
     void Start()
     {
+        
+
         deck = gameObject.GetComponent<Deck>();
         CreateDeck();
     }
 
     void CreateDeck()
     {
+        int num = deck.getCardNum();
+        cards = new GameObject[num];
         int cardCount = 0;
 
         foreach (int i in deck.GetDeck())
         {
             float x = cardOffset * cardCount;
-
+            
             cards[i] = Instantiate(cardPref) as GameObject;
+            start = cards[i].transform.position;
             Vector3 temp = start + new Vector3(-x, 0f, -x);
             cards[i].transform.position = temp;
 
@@ -40,7 +50,7 @@ public class DeckViews : MonoBehaviour
     // Extract cards from the deck
     void SpreadCards()
     {
-        float spaceBetweenCard = 0.1f;
+        
         int cardCount = 0;
         foreach (int i in deck.GetDeck())
         {
@@ -57,6 +67,7 @@ public class DeckViews : MonoBehaviour
     // Compress cards into the deck
     void De_Spread()
     {
+        cardModel.setEmptyQueue();  // Clear current queue
         float spaceBetweenCard = 0.001f;
         int cardCount = 0;
         foreach (int i in deck.GetDeck())
@@ -69,6 +80,7 @@ public class DeckViews : MonoBehaviour
             cardModel.isPick = false; //reset the picking card condition
 
             cardCount++;
+
         }
 
     }
@@ -86,4 +98,9 @@ public class DeckViews : MonoBehaviour
         }
 
     }
+
+    //public bool GetDeckState()
+    //{
+    //    return isDeSpread;
+    //}
 }

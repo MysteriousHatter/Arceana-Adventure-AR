@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c4addc1ba57e24fa61b0aec47a5324, type: 3}
+  m_Name: 13The Hanged Man
+  m_EditorClassIdentifier: 
+  cNumber: 13
+  cName: The Hanged Man
+  meaning: "Meaning: The Hanged Man is the card that suggests ultimate surrender,
+    sacrifice, or being suspended in time.\r\n"
+  upright: "Upright:(Letting go, Breaking old patterns, Circumspection, Suspension,
+    Metamorphosis)\r\nHistory:\r\nThe Hanged Man tarot card indicates that you are
+    in a situation that you are unhappy with. You may be feeling like you are stuck
+    in a rut or trapped in a situation or frame of mind that is not making you happy
+    but you have the power to release yourself. This may involve walking away from
+    the situation or simply changing your perspective on it. \r\nYou need to step
+    outside yourself and look at your situation from a different angle. Give yourself
+    time to just relax, stop trying to control things and just let them be, the correct
+    course of action will become clear to you in time.\r"
+  downright: "Reversed:(Missing an opportunity, Inability to change, Egotism)\r\nHistory:\r\n\u200B\r\nThe
+    Hanged Man reversed can indicate that you are being impulsive and making rash
+    decisions as a way to distract yourself from some sort of inner discontentment.
+    This Major Arcana trump card generally shows that you may be jumping from one
+    bad situation to the next without considering where this behaviour is taking you.
+    Ask yourself if there are feelings you trying to avoid confronting or changes
+    that you know need to be made but are reluctant to tackle. If there are, consider
+    what you fear will happen if you do? If you genuinely don\u2019t know what to
+    do in terms of your direction in life, just stop, breathe and wait for things
+    to become clearer. However, if you know your behaviour patterns are not working
+    for you, change them. Your attitude towards your life will determine life\u2019s
+    attitude towards you!\r\n"
+  CardImg: {fileID: 21300000, guid: bfa56180273d5384da8f7b6d6d77bbc3, type: 3}
+  card: {fileID: 0}
