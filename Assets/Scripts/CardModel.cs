@@ -5,15 +5,17 @@ using UnityEngine;
 public class CardModel : MonoBehaviour
 {
     
-    static List<CardModel> waitingCards;
+    public static List<CardModel> waitingCards;
 
     public Material[] materialDirectory;
     public bool isPick = false;
     public bool isDecoration = false;
+    public bool isFlipped = false;
+    DeckViews count = null;
 
     MeshRenderer myMesh;
     int cardIndex;
-    bool inPickingPhase = true;
+    public bool inPickingPhase = true;
 
     void Start()
     {
@@ -57,14 +59,26 @@ public class CardModel : MonoBehaviour
         
     }
 
-    public void Flip()
+    public void Flip() //flips card and displays associated text
     {
         Vector3 start = this.transform.eulerAngles;
         Vector3 end = this.transform.eulerAngles + new Vector3(0f, -180f);
-        StartCoroutine(Rotate(start, end)) ;
+        StartCoroutine(Rotate(start, end));
+
+        count.cardCounter++;
+        if (count.cardCounter == 1)
+            print("Past " + cardIndex);
+        else if (count.cardCounter == 2)
+            print("Present " + cardIndex);
+        else
+        {
+            print("Future " + cardIndex);
+            count.cardCounter = 0;
+        }          
     }
 
-    public IEnumerator Move(Vector3 start, Vector3 end, float speed)
+    public IEnumerator Move(Vector3 startPos, Vector3 endPos, 
+                    Quaternion startRotation, Quaternion endRotation, float speed)
     {
         float lerpTime = 0.5f;
         lerpTime = lerpTime / speed; //if speed = 1, it takes 0.5s to finsih the animation
@@ -75,7 +89,8 @@ public class CardModel : MonoBehaviour
         {
             currentTime += Time.deltaTime;
             t = currentTime / lerpTime;
-            this.transform.position = Vector3.Lerp(start, end, t);
+            this.transform.position = Vector3.Lerp(startPos, endPos, t);
+            this.transform.rotation = Quaternion.Lerp(startRotation, endRotation, t);
             yield return null;
         }
     }
@@ -123,6 +138,19 @@ public class CardModel : MonoBehaviour
         }
         
     }
+
+
+    public CardModel TopCard()
+    {
+        if (waitingCards.Count > 0)
+        {
+            return waitingCards[waitingCards.Count - 1];
+        }
+        else
+        {
+            return null;
+        }
+    }
     private void OnMouseUpAsButton()
     {
         if(inPickingPhase)
@@ -133,7 +161,11 @@ public class CardModel : MonoBehaviour
         else
         {
             //Click to flip card
-            Flip();
+            if (!isFlipped)
+            {
+                Flip();
+                isFlipped = true;
+            }     
         }             
     }
 

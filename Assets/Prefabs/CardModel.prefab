@@ -107,7 +107,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7771141033996003865}
   m_LocalRotation: {x: 0, y: 0.9999966, z: 0, w: 0.002618082}
-  m_LocalPosition: {x: -0.523, y: 0, z: 0}
+  m_LocalPosition: {x: -0.67, y: 0, z: 0.508}
   m_LocalScale: {x: 0.9, y: 0.7, z: 1}
   m_Children:
   - {fileID: 7771141033996256859}
@@ -226,3 +226,5 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 250ca013e0a0f61498727baf7cda2d36, type: 2}
   isPick: 0
   isDecoration: 0
+  isFlipped: 0
+  inPickingPhase: 1

@@ -45,6 +45,8 @@ public class Deck : MonoBehaviour
         }
     }
 
+
+
     public List<int> GetDeck()
     {
         return cards;
