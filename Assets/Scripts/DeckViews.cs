@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Deck))]
 public class DeckViews : MonoBehaviour
@@ -19,22 +20,21 @@ public class DeckViews : MonoBehaviour
     [SerializeField]
     Transform originalCard = null;
 
-    [SerializeField] float temp;
+    [SerializeField] float temp;   
 
+    // Private attributes
+    Vector3 start;
+    Mainmenu menu;
+    bool isSpread = false;
     Deck deck;
     CardModel cardModel;
     GameObject[] cards;
-
-    public int cardCounter;
-
-
-    Vector3 start;
-
-    bool isSpread = false;
-
+    WaitingCards wcards;
     void Start()
     {
         deck = gameObject.GetComponent<Deck>();
+        wcards = gameObject.GetComponent<WaitingCards>();
+        
         CreateDeck();
         //while (true)
         //{
@@ -306,10 +306,25 @@ public class DeckViews : MonoBehaviour
                     StartCoroutine(cardModel.Move(spos, epos, rotation, rotation, 1f));
                     cardCount++;
                 }
+                else
+                {
+                    //wcards.setList(i);
+                    WaitingCards.indexList.Add(i);
+                    cardModel.setPickingPhase(false);
+                }
                 //else cardModel.inPickingPhase = false;
             }
+            
+            StartCoroutine(TransitionToNewScreen());
         }
+        Debug.Log("print: " + CardModel.waitingCards.Count);
 
+    }
+
+    public IEnumerator TransitionToNewScreen()
+    {
+        yield return new WaitForSeconds(.5f);
+        SceneManager.LoadScene(3);
     }
 }
 

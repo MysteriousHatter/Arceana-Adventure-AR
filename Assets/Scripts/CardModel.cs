@@ -5,17 +5,32 @@ using UnityEngine;
 public class CardModel : MonoBehaviour
 {
     
-    public static List<CardModel> waitingCards;
+    static public List<CardModel> waitingCards = null;
 
     public Material[] materialDirectory;
     public bool isPick = false;
     public bool isDecoration = false;
     public bool isFlipped = false;
-    DeckViews count = null;
 
     MeshRenderer myMesh;
     int cardIndex;
-    public bool inPickingPhase = true;
+    bool inPickingPhase = true;
+    int cardCounter = 0;
+    //private void Awake()
+    //{
+    //    if (waitingCards != null)
+    //    {
+    //        foreach (CardModel c in waitingCards)
+    //        {
+    //            DontDestroyOnLoad(c.gameObject);
+    //        }
+    //        //if (waitingCards.Contains(this))
+    //        //{
+    //        //    DontDestroyOnLoad(this.gameObject);
+    //        //}
+    //    }
+
+    //}
 
     void Start()
     {
@@ -42,6 +57,11 @@ public class CardModel : MonoBehaviour
         cardIndex = index;
     }
 
+    public int getIndex()
+    {
+        return cardIndex;
+    }
+
     private IEnumerator Rotate(Vector3 start, Vector3 end)
     {
         // Time the rotation takes (0.5s)
@@ -65,15 +85,15 @@ public class CardModel : MonoBehaviour
         Vector3 end = this.transform.eulerAngles + new Vector3(0f, -180f);
         StartCoroutine(Rotate(start, end));
 
-        count.cardCounter++;
-        if (count.cardCounter == 1)
+        cardCounter++;
+        if (cardCounter == 1)
             print("Past " + cardIndex);
-        else if (count.cardCounter == 2)
+        else if (cardCounter == 2)
             print("Present " + cardIndex);
         else
         {
             print("Future " + cardIndex);
-            count.cardCounter = 0;
+            cardCounter = 0;
         }          
     }
 
@@ -174,5 +194,13 @@ public class CardModel : MonoBehaviour
         waitingCards.Clear();
     }
 
+    public void setPickingPhase(bool value)
+    {
+        inPickingPhase = value;
+    }
 
+    public bool getPickingPhase()
+    {
+        return inPickingPhase;
+    }
 }
