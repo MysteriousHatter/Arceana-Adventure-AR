@@ -38,5 +38,24 @@ MonoBehaviour:
     supposed to be, if you resist it, can be shocking and distressing. It\u2019s much
     better to make your way to your correct path rather than getting a jolt that forces
     you onto it. \r\n"
+  Past: Just like the transition from middle school to high school, you are about
+    to go through the next phase of your life. So be prepared but excited, new opportunities
+    are afoot!
+  Present: "Change is a double-edged sword. It is up to you whether it\u2019s a good
+    thing or a bad thing. Remember, change can allow the mind and body to flourish
+    in unexpected ways."
+  Future: "All good things must eventually come to an end. A chapter in your life
+    is about to end. But don\u2019t fret, there\u2019s always the next chapter to
+    look towards."
+  RePast: "Since graduating highschool you have refused to step into the world of
+    adulthood. Stop resisting the call of change because it\u2019ll happen regardless
+    if you want it to or not.  "
+  RePresent: "Soon there will be an event that will shake the very foundation of your
+    being. Don\u2019t be afraid of shedding your old self in order to embrace your
+    new one.  "
+  ReFuture: You are emotionally constipated and taking it out on others. Take some
+    time to work through your thoughts and emotions. Everyone around you will thank
+    you for it.
   CardImg: {fileID: 21300000, guid: a8664ba193b4bdb4799ec926fcaa0975, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

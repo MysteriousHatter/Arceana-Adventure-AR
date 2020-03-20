@@ -35,5 +35,20 @@ MonoBehaviour:
     a new venture because you are unsure you can trust the other people involved,
     this may be an indicator that you are right to be concerned. If you are stuck
     in a financial rut you will need to take a proactive approach to change your circumstances.\r\n"
+  Past: You worked very hard to get where you are now. The challenges you faced could
+    have only been overcome by someone as smart as yourself.
+  Present: You are the Magician. Red, the color of power, is your color of choice.
+    You manifest your own path and seize your dreams.
+  Future: A grand opportunity is soon to be upon you, You must be vigilant and resourceful
+    in the coming months.
+  RePast: Child, you were an untapped source of knowledge and power. But that well
+    is now all dried up and you are now working in retail.
+  RePresent: I see much talent in you, but it has yet to be fully utilized. Use the
+    time you have now to cultivate your talent. Otherwise your talent will forever
+    be lost.
+  ReFuture: "I see you marching into battle, equipped with just your wits. But wits
+    don\\\u2019t win battles, M14\u2019s do. Make sure to plan ahead and equip yourself
+    with the best."
   CardImg: {fileID: 21300000, guid: 0821cc4e2636155478fa7e2815e04378, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

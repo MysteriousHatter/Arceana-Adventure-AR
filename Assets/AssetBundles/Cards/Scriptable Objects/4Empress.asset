@@ -35,5 +35,20 @@ MonoBehaviour:
     taken a knock. You will need to shift the focus and ground yourself to correct
     this imbalance. It can be a signifier of empty-nest syndrome for the parents of
     grown up children. \r\n"
+  Past: "It seems you\u2019ve always had a close bond to mother earth. Even as a child,
+    Nature is where you felt most at peace. "
+  Present: I sense a surge of creativity brewing in you. The world is your canvas,
+    let loose and paint it.
+  Future: I see a child in your future and you are a very proud parent. Trust me,
+    hips don't lie
+  RePast: As a child you relied too heavily on your family and friends, this has caused
+    your personal growth to stagnate. You must become more independent if you wish
+    to succeed.
+  RePresent: Your friends and family can always rely on you to help them in dire circumstances.
+    While this is a noble trait to have, make sure not to neglect your own needs.
+  ReFuture: "It\u2019s very hard to read your future, there is a huge wall blocking
+    it\u2019s path. You need to push past this blockade otherwise your future will
+    be dull."
   CardImg: {fileID: 21300000, guid: 806b9ba750742254aa22640feac9416c, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

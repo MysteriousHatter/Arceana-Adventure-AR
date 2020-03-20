@@ -39,5 +39,20 @@ MonoBehaviour:
     Do not fall back into the old bad or risky behaviours that led you so close to
     danger. Don\u2019t get cocky and think you are invincible if you managed to dodge
     the bullet. Appreciate your good fortune, but don\u2019t push it!\r\n"
+  Past: "Immediate gratification is like a giant squid, it lurks, waiting for the
+    right moment to pull your boat under and once your under it\u2019s hard to right
+    your boat again. So always be wary of pushing aside long term goals for short
+    term happiness.  "
+  Present: Careful of labeling bad habits as out of your control. You could have started
+    that paper a week ago, you just chose not to.
+  Future: "Take care to maintain your relationships, it\u2019s okay to be close with
+    others but dependency cripples all parties involved."
+  RePast: "Like a child hiding a broken plate, you hide your true self from others.
+    Maybe it\u2019s time to bring your true self into the spotlight."
+  RePresent: You are so close to achieving your goals, all you need to do is shed
+    your shackles and step into the light.
+  ReFuture: "It\u2019s time to do some cleanup in your life. Cut ties with those who
+    hold you down and trash your bad habits"
   CardImg: {fileID: 21300000, guid: 5526e10c8e8318140a39f413a9b76c52, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

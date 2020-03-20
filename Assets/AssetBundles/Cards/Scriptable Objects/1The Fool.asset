@@ -35,5 +35,18 @@ MonoBehaviour:
     shows some potentially promising financial opportunities but exercise caution
     and do your homework before committing to anything. Career-wise you may be becoming
     restless in your current position or thinking of going out on your own. \r\n"
+  Past: You began in this world innocent and full of life. You were rewarded with
+    countless opportunities.
+  Present: Like the birds, you soar freely in the sky. The sky is your vast proving
+    ground granting you unlimited potential.
+  Future: I see grand new beginnings in store for you. You must have the will to take
+    it and seize it as your own.
+  RePast: Just like my high school prom date, you made many mistakes in your past.
+    You held back and are now filled with much regret.
+  RePresent: I see you come to me with light pockets. Too much reckless spending,
+    hmm? This is not charity work.
+  ReFuture: 'Oh no. Just like Icarus you are going to fly too close to the sun, burn
+    and fall. I recommend you bring a rock everywhere you go to keep you grounded. '
   CardImg: {fileID: 21300000, guid: 989528c880740454d9414c6a97e408b6, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

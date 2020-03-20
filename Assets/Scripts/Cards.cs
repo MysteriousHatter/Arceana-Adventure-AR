@@ -13,8 +13,16 @@ public class Cards : ScriptableObject
     [TextArea(14, 10)] public string meaning;
     [TextArea(14,10)] public string upright;
     [TextArea(14, 10)] public string downright;
-    public Sprite CardImg;
+    
+    [TextArea(14, 10)] public string Past;
+    [TextArea(14, 10)] public string Present;
+    [TextArea(14, 10)] public string Future;
 
+    [TextArea(14, 10)] public string RePast;
+    [TextArea(14, 10)] public string RePresent;
+    [TextArea(14, 10)] public string ReFuture;
+
+    public Sprite CardImg;
     public Cards card;
 
     private void OnEnable()

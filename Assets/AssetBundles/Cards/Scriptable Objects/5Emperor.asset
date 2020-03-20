@@ -39,5 +39,18 @@ MonoBehaviour:
     Don\u2019t be afraid to stand up to authority but do so in a practical and logical
     manner which will get you the results you want. The Emperor reversed can also
     indicate a father figure who let you down or abandoned you. \r\n"
+  Past: Most young children hate rules and strict parents. But you felt safe behind
+    the pillars of strong discipline.
+  Present: Just like the giant sequoia tree, you are strong and sturdy. Unable to
+    be moved against your will.
+  Future: You have big pants to fill, there will be a time where your predecessor
+    falls and you will be the one setting the rules.
+  RePast: Looks like you were a little rebel child. You thought you were a free spirit
+    sticking it to the man, but you were more like a little uncaged beast.
+  RePresent: "Oof, darling would it hurt you to let loose once in a while. Your posture
+    and demeanor is so stiff, it\u2019s making my back hurt."
+  ReFuture: "I see a strong leader, standing on the bodies of their enemies. Just
+    be careful that you don\u2019t leave innocent bodies in your wake."
   CardImg: {fileID: 21300000, guid: 0c522de12fb0467429bb50f063292d32, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

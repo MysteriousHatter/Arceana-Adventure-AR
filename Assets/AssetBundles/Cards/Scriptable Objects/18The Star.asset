@@ -41,5 +41,19 @@ MonoBehaviour:
     focus on the positive. Start small and try to find one or two things to be grateful
     for in each day. A creative outlet might also be helpful to you if you are artistically
     inclined. Rediscover your creative side, it will help you heal.\r\n"
+  Past: Much like picking up an unfinished game, you will find yourself reinvigorated
+    to pick up unfinished activities that were casted to the wayside.
+  Present: Look at you all bright eyed and bushy tailed, just hopping with hope that
+    today will be a good day.
+  Future: "Faith, trust, and pixie dust. Sometimes all you can do is have faith it\u2019ll
+    all work out."
+  RePast: "Like a computer that has been unplugged, you feel disconnected from the
+    world around you and the people in it. It may be best to surround yourself with
+    trusted loved ones, they\u2019ll help plug you back in."
+  RePresent: "Have faith in the people around you, they aren\u2019t as incompetenct
+    as you may think they are."
+  ReFuture: "Don\u2019t lose heart being stuck at a roadblock. Trust that you will
+    find a way through. "
   CardImg: {fileID: 21300000, guid: 8349ecddd9a986a488871e6dac0ea5df, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

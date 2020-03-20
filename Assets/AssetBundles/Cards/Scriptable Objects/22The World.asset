@@ -37,5 +37,19 @@ MonoBehaviour:
     you\u2019ve got something and it\u2019s still not working for you, The World reversed
     may be telling you that it\u2019s time to accept the disappointment and cut your
     losses. \r\n\r\n"
+  Past: 'You were a good kid, always doing your homework on time. Maintaining good
+    habits should always be a priority. '
+  Present: Always the completionist, you make sure to see every decision through to
+    the end.
+  Future: "You have accomplished a great many things and you don\u2019t seem to be
+    slowing down. Before going off on another life changing journey, perhaps some
+    vacation is in order."
+  RePast: You always searched for the easy way out. Careful to look before you leap,
+    or your short-cut might lead to a dead end.
+  RePresent: "Procrastination is not a cute look. Beware the notion of \u201CI\u2019ll
+    do it later\u201D\r\n"
+  ReFuture: You seek solid answers where there are none. It will do you some good
+    to embrace uncertainty.
   CardImg: {fileID: 21300000, guid: f35915be65ab1e3499731a4640ad10bf, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

@@ -15,7 +15,10 @@ public class CardModel : MonoBehaviour
     MeshRenderer myMesh;
     int cardIndex;
     bool inPickingPhase = true;
-    int cardCounter = 0;
+    public int isReversed = 0; //0 is upright, 1 is reversed
+    int cardOrder = 0; //keeps track of order of cards
+
+    public Cards[] card_list;
     //private void Awake()
     //{
     //    if (waitingCards != null)
@@ -81,20 +84,45 @@ public class CardModel : MonoBehaviour
 
     public void Flip() //flips card and displays associated text
     {
+        //this part randomizes whether each card is in the reversed or not, then rotates it so
+        int num = Random.Range(0, 2);
+        isReversed = num;
+        if (isReversed == 1)
+        {
+            this.transform.eulerAngles = this.transform.eulerAngles + new Vector3(0, 0, 180);
+        }
+
         Vector3 start = this.transform.eulerAngles;
         Vector3 end = this.transform.eulerAngles + new Vector3(0f, -180f);
         StartCoroutine(Rotate(start, end));
 
-        cardCounter++;
-        if (cardCounter == 1)
-            print("Past " + cardIndex);
-        else if (cardCounter == 2)
-            print("Present " + cardIndex);
+        cardOrder++;
+        Display();        
+    }
+
+    public void Display()
+    {
+        if (cardOrder == 1)
+        {
+            if (isReversed == 1)
+                print(card_list[cardIndex].RePast);
+            else
+                print(card_list[cardIndex].Past);
+        }
+        else if (cardOrder == 2)
+        {
+            if (isReversed == 1)
+                print(card_list[cardIndex].RePresent);
+            else
+                print(card_list[cardIndex].Present);
+        }
         else
         {
-            print("Future " + cardIndex);
-            cardCounter = 0;
-        }          
+            if (isReversed == 1)
+                print(card_list[cardIndex].ReFuture);
+            else
+                print(card_list[cardIndex].Future);
+        }
     }
 
     public IEnumerator Move(Vector3 startPos, Vector3 endPos, 

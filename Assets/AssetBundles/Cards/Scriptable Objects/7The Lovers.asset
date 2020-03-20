@@ -39,5 +39,18 @@ MonoBehaviour:
     forward in a position direction. You will develop a deeper understanding of your
     true self, your values and your beliefs and avoid repeating the same mistakes
     in the future.\r\n"
+  Past: Throughout your life, You met kindred spirits... Keep these people close to
+    your heart.
+  Present: 'You seem to be between two paths. While it may be tempting to go with
+    the path of least resistance, the more difficult paths are the most rewarding. '
+  Future: I see some spicy romance in the future. Looks like you will have a hot date
+    soon.
+  RePast: "You made many mistakes in the past, but don\u2019t let that stop you. Learn
+    from your errors and strive to be even better than before."
+  RePresent: Lately have you felt lonely? It might be time to respond to some of those
+    unanswered texts.
+  ReFuture: "The future isn\u2019t looking good for you, my friend. It seems you might
+    have made quite a few people upset with you. It might be good to invest in a bodyguard."
   CardImg: {fileID: 21300000, guid: 3f852248350893247854f57a3b186303, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

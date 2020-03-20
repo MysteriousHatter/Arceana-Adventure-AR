@@ -227,4 +227,27 @@ MonoBehaviour:
   isPick: 0
   isDecoration: 0
   isFlipped: 0
-  inPickingPhase: 1
+  isReversed: 0
+  card_list:
+  - {fileID: 11400000, guid: 047d824720edaf24e92e7c3da366d03d, type: 2}
+  - {fileID: 11400000, guid: 7e045c7416ba85042bed77410c0f2b1e, type: 2}
+  - {fileID: 11400000, guid: 810215758cbfbba4eb601c683a464371, type: 2}
+  - {fileID: 11400000, guid: 810215758cbfbba4eb601c683a464371, type: 2}
+  - {fileID: 11400000, guid: 90b9843c43bdc5243af48df7465211a1, type: 2}
+  - {fileID: 11400000, guid: 0246bee0861c5b348a1ab1612ef709b4, type: 2}
+  - {fileID: 11400000, guid: cf98faf77011dae4ba3029e31768f378, type: 2}
+  - {fileID: 11400000, guid: d6628d4314aa0ae48a8ff4ac4a3d6a80, type: 2}
+  - {fileID: 11400000, guid: a2abf1a986556994e8badee56c5772bc, type: 2}
+  - {fileID: 11400000, guid: 2affe872f2bbc83469727664a3c72d17, type: 2}
+  - {fileID: 11400000, guid: 5ff3e13e9fa375b42ac67faf0d399dc5, type: 2}
+  - {fileID: 11400000, guid: 422fea662e0105b49844141f7f5a07a2, type: 2}
+  - {fileID: 11400000, guid: c103c62a0a9123f4186da971109286aa, type: 2}
+  - {fileID: 11400000, guid: ff1c82b7a0b7852468adc0709dc28e50, type: 2}
+  - {fileID: 11400000, guid: 3ef8344e0e71dc54d961bf906e7c71cb, type: 2}
+  - {fileID: 11400000, guid: 54d04efa84301e647b41df2dfe58942d, type: 2}
+  - {fileID: 11400000, guid: e3747bad41e775a409e7c05a99426fd2, type: 2}
+  - {fileID: 11400000, guid: 51d60b82079bf3041a5633c1dea3b326, type: 2}
+  - {fileID: 11400000, guid: 6e503165bbb2c9f4e84ec6063dcad63d, type: 2}
+  - {fileID: 11400000, guid: 066dccdc01e5ee541b93076c232db0af, type: 2}
+  - {fileID: 11400000, guid: 786885915f340ec4481ce84d61a1efe6, type: 2}
+  - {fileID: 11400000, guid: 056fcb0015dded04da77491346b3eccf, type: 2}

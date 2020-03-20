@@ -37,5 +37,19 @@ MonoBehaviour:
     to become clearer. However, if you know your behaviour patterns are not working
     for you, change them. Your attitude towards your life will determine life\u2019s
     attitude towards you!\r\n"
+  Past: "Take a deep breath and breath for a second. Sometimes stopping and smelling
+    the roses is needed, especially in today\u2019s always moving society. "
+  Present: Sometimes grudges and ill feelings are better left in the past. Clean out
+    the skeletons in your closet to gain closure to past hurts.
+  Future: 'An event is coming that will shake your world view. Use this as an opportunity
+    to change how you see the world. '
+  RePast: "It is better to embrace the ever changing nature of life than to resist
+    its pull. Resistance is futile so go with the flow, it\u2019ll save you a lot
+    of stress.  "
+  RePresent: There are many opportunities abound but be careful not to get bogged
+    down with indecision. Else opportunities may slip from your grasp.
+  ReFuture: 'Ignoring your homework assignments now only serves to delay the inevitable
+    cram at the end. So stop stalling and start doing! '
   CardImg: {fileID: 21300000, guid: bfa56180273d5384da8f7b6d6d77bbc3, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

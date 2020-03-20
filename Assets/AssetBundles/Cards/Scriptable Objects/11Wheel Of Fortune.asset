@@ -36,5 +36,21 @@ MonoBehaviour:
     While there may be some outside factors, the current situation is most likely
     a result of decisions you made. You will need to take control of your situation
     and ownership of your choices in order to learn from this situation. \r\n"
+  Past: Ever since you were little you knew you were destined for greatness! Now if
+    only you knew what that destiny entailed.
+  Present: 'Pick up a four-leaf clover? See a ladybug flying by? Keep seeing the number
+    seven everywhere you go? My dude you should go and buy a lottery ticket asap.
+    Good luck like this is fickle and fleeting, so use it while you can! '
+  Future: You may be in the slumps right now but worry not! A turning point is just
+    around the bend, so push through to reap the reward.
+  RePast: 'If you continue to be stuck in the past you will never see your future.
+    Throw away the chains holding you back and embrace what the future has to offer
+    you. '
+  RePresent: "See a black cat crossing the street? Broke a mirror? Walked under an
+    open ladder? Yikes! My dude you have what we call bad luck. Better stay in for
+    the day. It\u2019ll limit the inevitable fallout."
+  ReFuture: "It\u2019s time for a change of pace, you have accomplished so much but
+    are starting to lose steam. Break your daily routine to reinvigorate yourself!"
   CardImg: {fileID: 21300000, guid: 43102a56a21be7f4e9ff88c4d6203cff, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

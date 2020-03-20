@@ -38,5 +38,23 @@ MonoBehaviour:
     too needy and demanding you need to take back your power in a productive way.
     Be clear about what time or resources you are prepared to dedicate to others.
     Set your boundaries and stick to them.\r\n"
+  Past: 'You were always a hyperactive child. Take that sense of action into your
+    future endeavors. There will be no stopping you once you get started! '
+  Present: 'The hardest part of any project is starting it! So stop procrastinating
+    and start. Once you do, success will be sure to follow. '
+  Future: 'Just like an airplane can sometimes experience unexpected turbulence, you
+    will soon experience some unexpected circumstances. Stick to your guns and power
+    through all that stands in your way.  '
+  RePast: "You are in a serious rut and don\u2019t know where to take your life. Here\u2019s
+    a word of advice, get out more. Go into the world and try something new, the worst
+    that can happen is that you don\u2019t like the new experience. As they say the
+    only way to know where to go in life is to know where you don\u2019t want to go. "
+  RePresent: 'There are two types of people in the world, those who support you and
+    those who oppose you. Crush the opposition and prove them wrong by being as successful
+    as possible. '
+  ReFuture: "Procrastination is like a dragon that stole your productivity and now
+    holds it atop an unnecessarily tall tower. Wield your self-discipline like an
+    unyielding sword, slay the dragon, and regain your productivity! \r\n"
   CardImg: {fileID: 21300000, guid: 45e0d62733eda444186fc130d336bef0, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

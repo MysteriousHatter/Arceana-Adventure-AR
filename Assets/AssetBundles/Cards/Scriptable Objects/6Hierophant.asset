@@ -36,5 +36,18 @@ MonoBehaviour:
     it but you will feel compelled to think for yourself and throw away the rule book.
     The Hierophant reversed can signify an unconventional way of living or an alternative
     lifestyle\r\n"
+  Past: You were a good little child, always keeping up with your studies and eager
+    to learn.
+  Present: Like a mod for a christian minecraft server, you are a pillar for those
+    seeking spiritual wisdom.
+  Future: I see a bright torch being passed down to you from your parents. You are
+    going to carry it proudly, keeping everything in your family tradition.
+  RePast: When you were younger, you felt like you were alone and had no one to turn
+    to. So you turned to yourself, letting no one else in.
+  RePresent: You are an individual thinker. Believing in no higher power and praying
+    to only yourself.
+  ReFuture: "I would give you more words of advice, but you don\u2019t believe in
+    fate let alone the tarot deck."
   CardImg: {fileID: 21300000, guid: bfa56180273d5384da8f7b6d6d77bbc3, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

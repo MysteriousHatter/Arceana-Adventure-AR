@@ -37,5 +37,20 @@ MonoBehaviour:
     touch with it and that disconnection is leaving you feeling weak, vulnerable and
     lacking confidence. Focus on the positive, stay away from people who make you
     feel inadequate and spend time with people who build you up. \r\n"
+  Past: 'You are a master of persuasion, it must be thanks to all those Halloween
+    nights spent bartering almond joys for kit kats. Your child self would be proud. '
+  Present: "Though it doesn\u2019t seem like it, being kind takes more strength than
+    people are willing to admit. Stay strong in the face of adversary and continue
+    to seek strength in being kind to others."
+  Future: Like a stone being dropped into a pond, take care to consider your words
+    before you speak, you never know who they might influence.
+  RePast: As the saying goes, when life throws you a curveball, pull yourself up by
+    your bootstraps. You are stronger than you know, so give yourself some more credit.
+  RePresent: "Your emotions ring raw and wild like a lion\u2019s roar. Be careful
+    you don\u2019t accidentally catch innocent bystanders in the line of fire. "
+  ReFuture: 'If self-doubt is allowed to fester, it will grow on you like a bad mosquito
+    bite that you insist on scratching. Wear confidence like bug repellent to keep
+    the doubt at bay. '
   CardImg: {fileID: 21300000, guid: 524001afe64420747826c06057620e62, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

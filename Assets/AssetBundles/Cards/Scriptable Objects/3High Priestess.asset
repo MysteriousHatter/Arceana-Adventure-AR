@@ -35,5 +35,19 @@ MonoBehaviour:
     you need.  Financially speaking, make sure you understand all the conditions before
     taking out loans or signing contracts, again somebody may be being dishonest with
     you. Trust your intuition if it doesn\u2019t feel right.\r\n"
+  Past: Your keen sense of intuition has always helped steer your path. Your peers
+    might say that they know the best way, but you know the right way.
+  Present: The connection between you and your subconscious mind is vast. Never lose
+    this connection, it is the lifeline between you and your heart.
+  Future: "Two paths lay before you. One leads to a long life and prosperity, the
+    other leads to damnation and eternal pain. But don\\\u2019t worry, just follow
+    your intuition."
+  RePast: 'A childhood full of silence and secrets have withdrawn you from society.
+    You must overcome this in order to succeed. '
+  RePresent: "You seem like the quiet type, is it because you are keeping secrets?
+    Well, nothing gets past me. So don\u2019t even try."
+  ReFuture: Two paths lay before you. One leads to a long life and prosperity, the
+    other leads to damnation and eternal pain. I would worry if I were you.
   CardImg: {fileID: 21300000, guid: e25512145fdee9d4baae8c4c74f15a40, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

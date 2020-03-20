@@ -35,5 +35,18 @@ MonoBehaviour:
     drama. You may be lacking perspective and not looking at the bigger picture. You
     would do well to take a step back and take a look at how you are behaving, examine
     the root causes and work on resolving them.\r\n"
+  Past: "As a child you loved to consume large quantities of candy. Dial back the
+    consumption and live in moderation. Your teeth will thank you.\r\n"
+  Present: Take the time to listen to others and seek understanding with other perspectives,
+    life would be a really boring place without variety.
+  Future: You have a firm grasp of where you want to go in life. Take great pride
+    in knowing your purpose.
+  RePast: "You have not yet healed from a past conflict. Perhaps it\u2019s time to
+    slow down and look into some self-healing."
+  RePresent: "You move through life without consideration for the future. Careful
+    you don\u2019t push yourself towards an unfavorable outcome. "
+  ReFuture: Looking towards the future, now is the time to reinvent yourself! Kick
+    bad habits and implement good ones!
   CardImg: {fileID: 21300000, guid: 9da92a408ef8f704f912491703a2d89e, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

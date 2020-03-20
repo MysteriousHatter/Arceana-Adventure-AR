@@ -41,5 +41,25 @@ MonoBehaviour:
     Major Arcana card in reversed position indicates that now is that time. It can
     also indicate that you may be feeling shy or apprehensive about being in social
     situations. \r\n\r\n"
+  Past: "Just because we live in a world of science and technology doesn\u2019t mean
+    we can explain everything. Listen to your gut, it can save you from some nasty
+    situations."
+  Present: "Being alone isn\u2019t always a negative thing. Take the time to look
+    inwards and realize your shortcomings. The first part of becoming better is knowing
+    what you lacked in the first place. "
+  Future: 'You feel lost and unbalanced right now. Take the time to stop and reevaluate
+    your priorities. Future you will thank you for taking the time to think through
+    big decisions instead of jumping in head first. '
+  RePast: "You never really had many friends. So you carry the feeling of loneliness
+    with you like a ball and chain. Don\u2019t let loneliness consume you, it may
+    be hard but reach out to someone. Who knows, maybe someone as lonely as you is
+    waiting for someone to reach out too."
+  RePresent: "Though it is good to be alone in moderation, careful you don\u2019t
+    stray into hermit territory. Isolation is a situation that will only lead to dark
+    thoughts and nihilistic tendencies. "
+  ReFuture: Something tragic will happen to you in the near future. You will withdraw
+    from those close to you to seek comfort within. But never forget that there are
+    people who love and cherish you.
   CardImg: {fileID: 21300000, guid: e2a289393f94d9c4e99f1e29a52855e3, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}

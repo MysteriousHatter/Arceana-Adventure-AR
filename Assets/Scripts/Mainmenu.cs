@@ -8,21 +8,21 @@ public class Mainmenu : MonoBehaviour
 {
     public void PlayStartScene()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("StartScene");
     }
     public void PlayMain()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Main");
     }
 
     public void PlayHistory()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("History");
     }
 
     public void PlayResultScene()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene("ShowResult");
     }
 
     public void QuitGame()

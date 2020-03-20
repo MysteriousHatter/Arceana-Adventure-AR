@@ -38,5 +38,21 @@ MonoBehaviour:
     in a lie, don\u2019t try to justify it or lie your way out of it. Just confess,
     accept the consequences and try to draw a line under it. Justice reversed can
     indicate someone with very hard-line or uncompromising views. \r\n"
+  Past: As they say, honesty is the best policy. Continue to be honest with the people
+    around you. It is better to be hated for being authentic than to be loved for
+    a lie.
+  Present: Continue to pour your hard work into everything you try to achieve, the
+    effects can only be good.
+  Future: "You will be wronged in the near future, but worry not for the fates have
+    blessed you. Justice will be served, cold, like coffee that\u2019s been left out
+    for too long."
+  RePast: "Life is full of strife and unfairness. That\u2019s just the way the cookie
+    crumbles. It\u2019s up to you to decide whether you're going to let that stop
+    you from accomplishing your goals."
+  RePresent: 'You have been avoiding your responsibilities. No one wants to work with
+    someone unreliable, fix your priorities and become more dependable. '
+  ReFuture: Do your best to tell the truth in the moment, being dishonest only makes
+    it harder to tell the truth later. Remember, no one likes being lied to.
   CardImg: {fileID: 21300000, guid: d07a29d787151764c911f04cc0964e85, type: 3}
+  reCardImg: {fileID: 0}
   card: {fileID: 0}
