@@ -20,7 +20,9 @@ public class DeckViews : MonoBehaviour
     [SerializeField]
     Transform originalCard = null;
 
-    [SerializeField] float temp;   
+    [SerializeField] float temp;
+
+    [SerializeField] LevelLoader loader;
 
     // Private attributes
     Vector3 start;
@@ -30,6 +32,7 @@ public class DeckViews : MonoBehaviour
     CardModel cardModel;
     GameObject[] cards;
     WaitingCards wcards;
+    
     void Start()
     {
         deck = gameObject.GetComponent<Deck>();
@@ -176,10 +179,6 @@ public class DeckViews : MonoBehaviour
 
         }
 
-        
-        //Call the De_Spread method
-        //Have the right and left method Vector Start be from initial and go to the vector position
-        //Have the merge have the left and right method go from their new position to the center.
 
     }
 
@@ -252,20 +251,6 @@ public class DeckViews : MonoBehaviour
             yield return new WaitForSeconds(.05f);
         }
     }
-    //if (i % 2 == 0)
-    //{
-    //    x = cardOffset * cardCount;
-    //    Vector3 end = rightCardPos + new Vector3(.001f, 0, -0.15f);
-    //    Vector3 startPos = cards[i].transform.position;
-    //    cardModel = cards[i].GetComponent<CardModel>();
-    //    StartCoroutine(cardModel.Move(startPos, end, 2f));
-    //    cardModel.isPick = false; //reset the picking card condition
-
-    //    cardCount++;
-    //}
-
-
-
 
 
     private void OnMouseUpAsButton()
@@ -314,8 +299,8 @@ public class DeckViews : MonoBehaviour
                 }
                 //else cardModel.inPickingPhase = false;
             }
-            
-            StartCoroutine(TransitionToNewScreen());
+            loader.LoadNextLevel();
+            //StartCoroutine(TransitionToNewScreen());
         }
         Debug.Log("print: " + CardModel.waitingCards.Count);
 

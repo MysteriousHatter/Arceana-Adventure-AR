@@ -89,11 +89,12 @@ public class CardModel : MonoBehaviour
         isReversed = num;
         if (isReversed == 1)
         {
-            this.transform.eulerAngles = this.transform.eulerAngles + new Vector3(0, 0, 180);
+            //Tuan uncomment this
+            //this.transform.eulerAngles = this.transform.eulerAngles + new Vector3(0, 0, 180);
         }
 
         Vector3 start = this.transform.eulerAngles;
-        Vector3 end = this.transform.eulerAngles + new Vector3(0f, -180f);
+        Vector3 end = this.transform.eulerAngles + new Vector3(0f, -180f, 0f);
         StartCoroutine(Rotate(start, end));
 
         cardOrder++;
@@ -213,6 +214,7 @@ public class CardModel : MonoBehaviour
             {
                 Flip();
                 isFlipped = true;
+                print("my state :" +this.isFlipped);
             }     
         }             
     }
