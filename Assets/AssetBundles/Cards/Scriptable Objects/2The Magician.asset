@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 2
   cName: The Magician
+  cModel: {fileID: 4034950257200814529, guid: 6b0190faa95c3604e860b317904a0dc0, type: 3}
   meaning: 'Meaning: When the Magician appears in a spread, it points to the talents,
     capabilities and resources at the querent''s disposal to succeed. The message
     is to tap into one''s full potential rather than holding back, especially when
@@ -50,5 +51,11 @@ MonoBehaviour:
     don\\\u2019t win battles, M14\u2019s do. Make sure to plan ahead and equip yourself
     with the best."
   CardImg: {fileID: 21300000, guid: 0821cc4e2636155478fa7e2815e04378, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: 792e29e260ed9c947bb2a392d003e0df, type: 3}
+  - {fileID: 8300000, guid: 4bd2107cf4517064d8cf940e7a7b691f, type: 3}
+  - {fileID: 8300000, guid: ef5743d33c438bc4484b0a2199ac6a63, type: 3}
+  - {fileID: 8300000, guid: 4f295f3f4b88e6f46995f58f0a37f6b9, type: 3}
+  - {fileID: 8300000, guid: ade8d9f6798509f48a914e90ab8023b2, type: 3}
+  - {fileID: 8300000, guid: 1302e161a5c57c94da542eb0c3ae4af5, type: 3}

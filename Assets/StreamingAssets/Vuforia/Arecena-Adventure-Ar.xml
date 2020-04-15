@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Card5" size="0.150000 0.250000" />
+    <ImageTarget name="The_Empress" size="0.150000 0.250000" />
+    <ImageTarget name="Card3" size="0.150000 0.250000" />
+    <ImageTarget name="The_Magician" size="0.150000 0.250000" />
+    <ImageTarget name="Card1" size="0.150000 0.248684" />
     <ImageTarget name="Tarot" size="0.150000 0.218182" />
   </Tracking>
 </QCARConfig>

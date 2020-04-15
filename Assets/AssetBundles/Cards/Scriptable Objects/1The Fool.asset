@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 1
   cName: The Fool
+  cModel: {fileID: 8696155644842527677, guid: 0a0d7df9e2c506440a78c59956fc9214, type: 3}
   meaning: 'Meaning: represents new beginnings; having faith in the future; being
     inexperienced, not knowing what to expect; having beginners luck; improvisation;
     believing in the universe.'
@@ -48,5 +49,11 @@ MonoBehaviour:
   ReFuture: 'Oh no. Just like Icarus you are going to fly too close to the sun, burn
     and fall. I recommend you bring a rock everywhere you go to keep you grounded. '
   CardImg: {fileID: 21300000, guid: 989528c880740454d9414c6a97e408b6, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: f29d3dcd629489b4e89e7b65182f7d39, type: 3}
+  - {fileID: 8300000, guid: a63cde34986ff8d4086072ff6fe781d1, type: 3}
+  - {fileID: 8300000, guid: 272b433e428755849b84b3dd7d9b096b, type: 3}
+  - {fileID: 8300000, guid: 358c57f632734e641b6f9b2ce930a085, type: 3}
+  - {fileID: 8300000, guid: f7ed257d4522dc3499b77a7c6b095923, type: 3}
+  - {fileID: 8300000, guid: 9dce9faf1c0055b47903838e506111b2, type: 3}

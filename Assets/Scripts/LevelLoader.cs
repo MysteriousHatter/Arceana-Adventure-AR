@@ -14,7 +14,7 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadNextLevel()
     {
-        StartCoroutine(LoadLevel("ShowResult"));
+        StartCoroutine(LoadLevel("ShowResult AR"));
     }
 
     IEnumerator LoadLevel(string name)

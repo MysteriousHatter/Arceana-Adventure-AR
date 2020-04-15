@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 21
   cName: The Judgement
+  cModel: {fileID: 0}
   meaning: "Meaning: This card is referred to as a time of resurrection and awakening,
     a time when a period of our life comes to an absolute end making way for dynamic
     new beginnings.\r\n"
@@ -52,5 +53,11 @@ MonoBehaviour:
   ReFuture: "It\u2019s time for an intervention. Re-evaluate what\u2019s important
     in your life, and no cigarettes don\u2019t count. "
   CardImg: {fileID: 21300000, guid: 10029dcef7e2b4748a3cc7eab50932ad, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: 08d3722b92bd51743b261f88e8e70d45, type: 3}
+  - {fileID: 8300000, guid: 65610b15a5848d44689e0498de3e16dc, type: 3}
+  - {fileID: 8300000, guid: 97610b8d38cd8054e9b3ab360045d9cc, type: 3}
+  - {fileID: 8300000, guid: 757e85f8601e168458280bd3bb47d482, type: 3}
+  - {fileID: 8300000, guid: 12bb2999f7a905d4cb7ecefcd4baff08, type: 3}
+  - {fileID: 8300000, guid: eb0e1ae79d4d39742a65098a40df10b9, type: 3}

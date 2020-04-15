@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 14
   cName: The Death
+  cModel: {fileID: 0}
   meaning: "Meaning: Unlikely that this card actually represents a physical death.
     Typically it implies an end, possibly of a relationship or interest, and therefore
     implies an increased sense of self-awareness.\r\n"
@@ -57,5 +58,11 @@ MonoBehaviour:
     time to work through your thoughts and emotions. Everyone around you will thank
     you for it.
   CardImg: {fileID: 21300000, guid: a8664ba193b4bdb4799ec926fcaa0975, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: e20668eaaf4d2bc42a7aaf09313ef4be, type: 3}
+  - {fileID: 8300000, guid: ee831df71d186004aa62439161b0682a, type: 3}
+  - {fileID: 8300000, guid: 8f0878cb3d132634a93b25f3da661031, type: 3}
+  - {fileID: 8300000, guid: 0fedc82372feb25469d56e6a7d4be999, type: 3}
+  - {fileID: 8300000, guid: 7d8f24a16db4dd045b0b88bbc37c6ae7, type: 3}
+  - {fileID: 8300000, guid: a65624bc3fd61e04199b8161cfd6a029, type: 3}

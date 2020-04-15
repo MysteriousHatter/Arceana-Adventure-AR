@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 15
   cName: The Temperance
+  cModel: {fileID: 0}
   meaning: 'Meaning: This card indicates that you should learn to bring about balance,
     patience and moderation in your life. You should take the middle road, avoiding
     extremes and maintain a sense of calm.'
@@ -48,5 +49,11 @@ MonoBehaviour:
   ReFuture: Looking towards the future, now is the time to reinvent yourself! Kick
     bad habits and implement good ones!
   CardImg: {fileID: 21300000, guid: 9da92a408ef8f704f912491703a2d89e, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: 5b6f1c5670dfbd143aa6921124538a3d, type: 3}
+  - {fileID: 8300000, guid: 7ab5b49fca3a903498786e89c83e4405, type: 3}
+  - {fileID: 8300000, guid: 3d28b83a90dbba34d9cbabf76a3a22c7, type: 3}
+  - {fileID: 8300000, guid: d64ead43d8faff447b4408940ce98078, type: 3}
+  - {fileID: 8300000, guid: f28595b4f0e4ded488c2bccf33cb2ba6, type: 3}
+  - {fileID: 8300000, guid: c2f5094fe9f041d4d8be41e4180ac353, type: 3}

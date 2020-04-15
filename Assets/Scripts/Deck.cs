@@ -5,7 +5,7 @@ using UnityEngine;
 public class Deck : MonoBehaviour
 {
     List<int> cards;
-    int cardNum = 22;
+    [SerializeField] int cardNum = 22;
 
     // Start is called before the first frame update
     void Awake()

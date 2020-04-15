@@ -7,6 +7,9 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(Deck))]
 public class DeckViews : MonoBehaviour
 {
+    public AudioSource mainSound;
+    public AudioClip[] clipArray;
+
     public float cardOffset;
     public GameObject cardPref;
 
@@ -37,7 +40,8 @@ public class DeckViews : MonoBehaviour
     {
         deck = gameObject.GetComponent<Deck>();
         wcards = gameObject.GetComponent<WaitingCards>();
-        
+        mainSound = gameObject.GetComponent<AudioSource>();
+
         CreateDeck();
         //while (true)
         //{
@@ -79,6 +83,8 @@ public class DeckViews : MonoBehaviour
     // Extract cards from the deck
     void SpreadCards()
     {
+        mainSound.clip = clipArray[0]; //Spread sound
+        mainSound.PlayOneShot(mainSound.clip);
 
         int cardCount = 0;
         foreach (int i in deck.GetDeck())
@@ -98,6 +104,9 @@ public class DeckViews : MonoBehaviour
     // Compress cards into the deck
     void De_Spread()
     {
+        mainSound.clip = clipArray[1]; //De SPread sound
+        mainSound.PlayOneShot(mainSound.clip);
+
         cardModel.setEmptyQueue();  // Clear current queue
         float spaceBetweenCard = 0.001f;
         int cardCount = 0;
@@ -225,6 +234,9 @@ public class DeckViews : MonoBehaviour
         }
         yield return new WaitForSeconds(.4f);
 
+        mainSound.clip = clipArray[2]; //shullfe sound
+        mainSound.PlayOneShot(mainSound.clip);
+
         endRotation = originalCard.rotation;
         for (int i = 0; i < cards.Length; ++i)
         {
@@ -251,6 +263,41 @@ public class DeckViews : MonoBehaviour
             yield return new WaitForSeconds(.05f);
         }
     }
+
+    public void CollectAR()
+    {
+        int cardCount = 0;
+        //cardModel.isPick = false;
+        if (CardModel.waitingCards.Count == 3)
+        {
+            foreach (int i in deck.GetDeck())
+            {
+                cardModel = cards[i].GetComponent<CardModel>();
+                if (!cardModel.isPick)
+                {
+                    float x = cardOffset * cardCount;
+                    Vector3 spos = cards[i].transform.position;
+                    Vector3 epos = originalCard.position + new Vector3(-x, 0f, -x);
+
+                    Quaternion rotation = cards[i].transform.rotation;
+                    StartCoroutine(cardModel.Move(spos, epos, rotation, rotation, 1f));
+                    cardCount++;
+                }
+                else
+                {
+                    //wcards.setList(i);
+                    WaitingCards.indexList.Add(i);
+                    cardModel.setPickingPhase(false);
+                }
+                //else cardModel.inPickingPhase = false;
+            }
+
+            StartCoroutine(TransitionToNewScreenAR());
+        }
+        Debug.Log("print: " + CardModel.waitingCards.Count);
+
+    }
+
 
 
     private void OnMouseUpAsButton()
@@ -299,8 +346,8 @@ public class DeckViews : MonoBehaviour
                 }
                 //else cardModel.inPickingPhase = false;
             }
-            loader.LoadNextLevel();
-            //StartCoroutine(TransitionToNewScreen());
+
+            StartCoroutine(TransitionToNewScreen());
         }
         Debug.Log("print: " + CardModel.waitingCards.Count);
 
@@ -310,6 +357,12 @@ public class DeckViews : MonoBehaviour
     {
         yield return new WaitForSeconds(.5f);
         SceneManager.LoadScene("ShowResult");
+    }
+
+    public IEnumerator TransitionToNewScreenAR()
+    {
+        yield return new WaitForSeconds(.5f);
+        SceneManager.LoadScene("ShowResult AR");
     }
 }
 

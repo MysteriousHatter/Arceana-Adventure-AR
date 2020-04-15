@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 10
   cName: The Hermit
+  cModel: {fileID: 0}
   meaning: "Meaning: The Hermit suggests that you are in a phase of introspection
     where you are drawing your attention inwards and looking for answers within. You
     are in need of a period of inner reflection, away from the current demands of
@@ -61,5 +62,11 @@ MonoBehaviour:
     from those close to you to seek comfort within. But never forget that there are
     people who love and cherish you.
   CardImg: {fileID: 21300000, guid: e2a289393f94d9c4e99f1e29a52855e3, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: a71cbbfe43269a74ba7c4c1d82fbbe83, type: 3}
+  - {fileID: 8300000, guid: ddc39f05d7a927f4ebee5b424e714670, type: 3}
+  - {fileID: 8300000, guid: 5c1cbd3201e13ea4ab3a3cf0c294f379, type: 3}
+  - {fileID: 8300000, guid: 0a327325d2b52ec4db3200a4b04507ce, type: 3}
+  - {fileID: 8300000, guid: 72c1a1576e06dd44f883ff6d1c6a3ffa, type: 3}
+  - {fileID: 8300000, guid: 81c3409ab664e2e4888a973da9740b60, type: 3}

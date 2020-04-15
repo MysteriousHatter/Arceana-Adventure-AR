@@ -10,6 +10,7 @@ public class Cards : ScriptableObject
 
     public int cNumber;
     public string cName;
+    public GameObject cModel;
     [TextArea(14, 10)] public string meaning;
     [TextArea(14,10)] public string upright;
     [TextArea(14, 10)] public string downright;
@@ -24,6 +25,8 @@ public class Cards : ScriptableObject
 
     public Sprite CardImg;
     public Cards card;
+
+    public List<AudioClip> audioClips = new List<AudioClip>();
 
     private void OnEnable()
     {

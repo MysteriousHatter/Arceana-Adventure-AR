@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 20
   cName: The Sun
+  cModel: {fileID: 0}
   meaning: "Meaning: \r\nThe card portends good fortune, happiness, joy and harmony.
     It represents the universe coming together and agreeing with your path and aiding
     forward movement into something greater.\r\n"
@@ -53,5 +54,11 @@ MonoBehaviour:
   ReFuture: 'It may not seem like it right now but the storm will pass. Your struggle
     is temporary, the sun will always come back after the rain. '
   CardImg: {fileID: 21300000, guid: e3707bb2f3b562a41abe87ba4f26b3a3, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: aad80035148ca2a4cb02c4d25a0e3b8c, type: 3}
+  - {fileID: 8300000, guid: ae885d52ddf80db49a3f3f5f3fcfc1c4, type: 3}
+  - {fileID: 8300000, guid: d8a4ff2e3aa000b469e64207e55da321, type: 3}
+  - {fileID: 8300000, guid: dd3c074238e984c45aacd470d7820183, type: 3}
+  - {fileID: 8300000, guid: 4838e2fe9879c2f4e9dc4f65d2c1f220, type: 3}
+  - {fileID: 8300000, guid: bd46999faee5a804cb4ce9ff1300de90, type: 3}

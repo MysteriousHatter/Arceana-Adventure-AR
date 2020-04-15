@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 3
   cName: High Priestess
+  cModel: {fileID: 3551628627887683630, guid: 996e6a8da403d254ebb0a51aef72f25c, type: 3}
   meaning: 'Meaning: High Priestess is a card of mystery, stillness and passivity.
     This card suggests that it is time to retreat and reflect upon the situation and
     trust your inner instincts to guide you through it. Things around you are not
@@ -49,5 +50,11 @@ MonoBehaviour:
   ReFuture: Two paths lay before you. One leads to a long life and prosperity, the
     other leads to damnation and eternal pain. I would worry if I were you.
   CardImg: {fileID: 21300000, guid: e25512145fdee9d4baae8c4c74f15a40, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: 6bd98c8c5f5a3f14093a6879e52afe73, type: 3}
+  - {fileID: 8300000, guid: 3ddedefb9c13b5241b6bb11364ac91f9, type: 3}
+  - {fileID: 8300000, guid: 8f01ab3e4143973488343d71a6c7a1ad, type: 3}
+  - {fileID: 8300000, guid: 5e1bd38be8a1f4d408ca0cbf9cdeeae9, type: 3}
+  - {fileID: 8300000, guid: 33bb8814d60873d4084e244aea944381, type: 3}
+  - {fileID: 8300000, guid: 170ff616aea730643a48724f2d37ddb4, type: 3}

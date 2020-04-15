@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 16
   cName: The Devil
+  cModel: {fileID: 0}
   meaning: "Meaning: It represents being seduced by the material world and physical
     pleasures. Also living in fear, domination and bondage, being caged by an overabundance
     of luxury, discretion should be used in personal and business matters.\r\n"
@@ -54,5 +55,11 @@ MonoBehaviour:
   ReFuture: "It\u2019s time to do some cleanup in your life. Cut ties with those who
     hold you down and trash your bad habits"
   CardImg: {fileID: 21300000, guid: 5526e10c8e8318140a39f413a9b76c52, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: 8d6c796213bb13f40bb934acd56608b2, type: 3}
+  - {fileID: 8300000, guid: dee8e526107e8a848a659522cbc7fded, type: 3}
+  - {fileID: 8300000, guid: 5c397aa526eb2654abe7d5e8a2f62b0a, type: 3}
+  - {fileID: 8300000, guid: a242f247cc958224bb2ec1a490966e4d, type: 3}
+  - {fileID: 8300000, guid: cf9a2fb13d30b804da1a423387ca69c5, type: 3}
+  - {fileID: 8300000, guid: da42f8d45f7cadd4eb359f0bc3f01217, type: 3}

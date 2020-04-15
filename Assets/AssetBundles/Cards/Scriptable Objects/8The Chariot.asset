@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 8
   cName: The Chariot
+  cModel: {fileID: 0}
   meaning: 'Meaning: The Chariot is a card about overcoming conflicts and moving forward
     in a positive direction. One needs to keep going on and through sheer hard work
     and commitment he will be victorious.'
@@ -56,5 +57,11 @@ MonoBehaviour:
     holds it atop an unnecessarily tall tower. Wield your self-discipline like an
     unyielding sword, slay the dragon, and regain your productivity! \r\n"
   CardImg: {fileID: 21300000, guid: 45e0d62733eda444186fc130d336bef0, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: 3b9d956d6687e3e41874572baecd0226, type: 3}
+  - {fileID: 8300000, guid: 69dd17453c3f01e4086a3ba31b3d10c8, type: 3}
+  - {fileID: 8300000, guid: 9d642906338d3b74e85fdfd4771f08b1, type: 3}
+  - {fileID: 8300000, guid: 1038fbff9ba14d847b723b672369f065, type: 3}
+  - {fileID: 8300000, guid: 2e9529929d48474448fc05f08fa667c9, type: 3}
+  - {fileID: 8300000, guid: 2f105112b60d92644a2e883fe8baedf2, type: 3}

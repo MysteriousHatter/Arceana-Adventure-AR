@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 5
   cName: The Emperor
+  cModel: {fileID: 4653671084174010128, guid: 95593735d6c960343ac0cda9c2ff3be1, type: 3}
   meaning: 'Meaning: This card is suggestive of stability and security in life. You
     are on top of things and everything is under your control. It is your hard work,
     discipline and self control that have bought you this far. It means that you are
@@ -52,5 +53,11 @@ MonoBehaviour:
   ReFuture: "I see a strong leader, standing on the bodies of their enemies. Just
     be careful that you don\u2019t leave innocent bodies in your wake."
   CardImg: {fileID: 21300000, guid: 0c522de12fb0467429bb50f063292d32, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: 55e963fe4a24a7f4a81e01c050b6a83f, type: 3}
+  - {fileID: 8300000, guid: 89dbea225aefc62468ec9f9e9bd9a84a, type: 3}
+  - {fileID: 8300000, guid: 7d81ecb354369b849945ff9bb4cf7f9c, type: 3}
+  - {fileID: 8300000, guid: 2bee67ebdf249ef4a8438e1436890d63, type: 3}
+  - {fileID: 8300000, guid: bc945380b0843a54abce2100ecea3649, type: 3}
+  - {fileID: 8300000, guid: fbd648f8bfb96b74c9033f0e089a1370, type: 3}

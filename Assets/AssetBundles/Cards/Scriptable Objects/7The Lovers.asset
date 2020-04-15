@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 7
   cName: The Lovers
+  cModel: {fileID: 0}
   meaning: 'Meaning: The Lovers represent relationships and choices. Often an aspect
     of the queen''s life will have to be sacrificed; a bachelor(ette)''s lifestyle
     may be sacrificed and a relationship gained or one potential partner may be chosen
@@ -52,5 +53,11 @@ MonoBehaviour:
   ReFuture: "The future isn\u2019t looking good for you, my friend. It seems you might
     have made quite a few people upset with you. It might be good to invest in a bodyguard."
   CardImg: {fileID: 21300000, guid: 3f852248350893247854f57a3b186303, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: bb6a6bad38ea2b748b83115429035fba, type: 3}
+  - {fileID: 8300000, guid: 0983ad44bf123ec438c4482c28469a22, type: 3}
+  - {fileID: 8300000, guid: 68cb754fe4c957c4c95350dbdc3dcc62, type: 3}
+  - {fileID: 8300000, guid: fdf4d5f4c02097c42ba980fe4421aa54, type: 3}
+  - {fileID: 8300000, guid: 15db407ede2914f4f814a694d411882b, type: 3}
+  - {fileID: 8300000, guid: 358ba604df7549244adee0ad5f31af6a, type: 3}

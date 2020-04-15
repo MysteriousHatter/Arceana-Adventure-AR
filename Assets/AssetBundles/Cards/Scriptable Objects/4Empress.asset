@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 4
   cName: The Empress
+  cModel: {fileID: 2157806325038684773, guid: 89a8ebbde0b09bd488afb217220a19b0, type: 3}
   meaning: Meaning:The Empress is traditionally associated with maternal influence,
     it is the card if you are hoping to start a family. She can represent the creation
     of life, romance, art, or new business.
@@ -50,5 +51,11 @@ MonoBehaviour:
     it\u2019s path. You need to push past this blockade otherwise your future will
     be dull."
   CardImg: {fileID: 21300000, guid: 806b9ba750742254aa22640feac9416c, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: 2d3aa98ee9d452445a3daa3f265980c0, type: 3}
+  - {fileID: 8300000, guid: baa94b71b0162dd40b877b0e5e64ea91, type: 3}
+  - {fileID: 8300000, guid: b0cd645d798357a499fbc267714a9db5, type: 3}
+  - {fileID: 8300000, guid: 74974d42b983d2b4ca9fd9bd879e5bfc, type: 3}
+  - {fileID: 8300000, guid: d76298840c6d6914692178a26ca80342, type: 3}
+  - {fileID: 8300000, guid: bb9ad168976736242a459dce29e361d4, type: 3}

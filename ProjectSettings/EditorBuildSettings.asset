@@ -59,4 +59,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ShowResult.unity
     guid: 1cc42ed2760d53142a3a09e71a17bd1c
+  - enabled: 1
+    path: Assets/Scenes/ShowResult AR.unity
+    guid: 52e870ffbbb6d4e4ea0d198979949caf
+  - enabled: 1
+    path: Assets/Scenes/Main_AR.unity
+    guid: 4295bd653211d694eb0b166b99b7fd8b
   m_configObjects: {}

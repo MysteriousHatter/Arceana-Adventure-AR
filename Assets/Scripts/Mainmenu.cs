@@ -20,6 +20,11 @@ public class Mainmenu : MonoBehaviour
         SceneManager.LoadScene("History");
     }
 
+    public void PlayAR()
+    {
+        SceneManager.LoadScene("Main_AR");
+    }
+
     public void PlayResultScene()
     {
         SceneManager.LoadScene("ShowResult");

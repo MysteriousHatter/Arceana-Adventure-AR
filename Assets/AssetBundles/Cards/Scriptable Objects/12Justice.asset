@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 12
   cName: The Justice
+  cModel: {fileID: 0}
   meaning: "Meaning: The Justice card indicates that the fairest decision will be
     made. Justice is the sword that cuts through a situation, and will not be swayed
     by outer beauty when deciding what is fair and just.\r\n"
@@ -54,5 +55,11 @@ MonoBehaviour:
   ReFuture: Do your best to tell the truth in the moment, being dishonest only makes
     it harder to tell the truth later. Remember, no one likes being lied to.
   CardImg: {fileID: 21300000, guid: d07a29d787151764c911f04cc0964e85, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: 9b7591cc70fa9f647a44aa8c262a5688, type: 3}
+  - {fileID: 8300000, guid: 3c8c4c5b07bdd1b4bb922277c766fd30, type: 3}
+  - {fileID: 8300000, guid: 2bcc04f3df01b574189108cc998e0a6b, type: 3}
+  - {fileID: 8300000, guid: 3dcf0d693d026f342b6fa5f9c4c1cbe3, type: 3}
+  - {fileID: 8300000, guid: d68493181a289be49aecb5b976322043, type: 3}
+  - {fileID: 8300000, guid: 27ab7be500ca25d4c9ad64f3b6aa13c0, type: 3}

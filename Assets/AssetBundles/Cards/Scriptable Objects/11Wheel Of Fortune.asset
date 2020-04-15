@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 11
   cName: Wheel of Fortune
+  cModel: {fileID: 0}
   meaning: "Meaning: A common aspect to most interpretations of this card within a
     reading is to introduce an element of change in the querent's life, such change
     being in station, position or fortune: such as the rich becoming poor, or the
@@ -52,5 +53,11 @@ MonoBehaviour:
   ReFuture: "It\u2019s time for a change of pace, you have accomplished so much but
     are starting to lose steam. Break your daily routine to reinvigorate yourself!"
   CardImg: {fileID: 21300000, guid: 43102a56a21be7f4e9ff88c4d6203cff, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: 48ef10e59a430254bbb550ff39f20c80, type: 3}
+  - {fileID: 8300000, guid: 27ae01024a0bf61449c299433c6dc5a0, type: 3}
+  - {fileID: 8300000, guid: 19d3d2f45d465ec498ed536f36304a8b, type: 3}
+  - {fileID: 8300000, guid: 9f6d0a8c74a44d84abd1b8bc250b4895, type: 3}
+  - {fileID: 8300000, guid: 42c1d74612d61a4499bc409bc85c114e, type: 3}
+  - {fileID: 8300000, guid: 1a75b81e5036f8b4793d5245ad62b121, type: 3}

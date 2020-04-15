@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 19
   cName: The Moon
+  cModel: {fileID: 0}
   meaning: "Meaning: The Moon is a card of illusion and deception, and therefore often
     suggests a time when something is not as it appears to be. Perhaps a misunderstanding
     on your part, or a truth you cannot admit to yourself.\r\n"
@@ -52,5 +53,11 @@ MonoBehaviour:
   ReFuture: 'You did it, like a mighty knight conquering the dragon, you have conquered
     your fears. Now go get your princess before the dragon wakes up. '
   CardImg: {fileID: 21300000, guid: 0791f2748ab3b194ca4d9892d3ceaa3e, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: e631b00528b65c843b33fda29d1c5210, type: 3}
+  - {fileID: 8300000, guid: 87122c73b021f5447873c40479dc055f, type: 3}
+  - {fileID: 8300000, guid: 79d0e126b28d1ab41ae1fae2836562c9, type: 3}
+  - {fileID: 8300000, guid: cdf43613e455e7e4281b884fbbf77286, type: 3}
+  - {fileID: 8300000, guid: 0a90bf6a732dd5541b028bfd3ba01e71, type: 3}
+  - {fileID: 8300000, guid: bdc746fe4f2b3d545814ac0d4f0144b7, type: 3}

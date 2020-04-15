@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 6
   cName: The Hierophant
+  cModel: {fileID: 0}
   meaning: "Meaning: Hierophant stands for tradition and convention. It can represent
     marriage in an arranged setup. It can also mean a teacher/counsellor who will
     help in learning/education of the querent\r\n\r\n"
@@ -49,5 +50,11 @@ MonoBehaviour:
   ReFuture: "I would give you more words of advice, but you don\u2019t believe in
     fate let alone the tarot deck."
   CardImg: {fileID: 21300000, guid: bfa56180273d5384da8f7b6d6d77bbc3, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: 6ab5508b5e8bb9644b4806d1482a8d86, type: 3}
+  - {fileID: 8300000, guid: 3943db770c816ca4bad3995b9f975712, type: 3}
+  - {fileID: 8300000, guid: 22f75cbfcdbc5de42a29bd18c7690a6e, type: 3}
+  - {fileID: 8300000, guid: 332c5e07a30ffbe45ae1b382bc681ab6, type: 3}
+  - {fileID: 8300000, guid: bb024e27d80cf954a9738bb034ea62f8, type: 3}
+  - {fileID: 8300000, guid: d457529f6516df448801eac608baa8d4, type: 3}

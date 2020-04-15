@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CardModel : MonoBehaviour
 {
@@ -11,12 +12,30 @@ public class CardModel : MonoBehaviour
     public bool isPick = false;
     public bool isDecoration = false;
     public bool isFlipped = false;
+    Vector3 modCoord;
+    [SerializeField] Text FirstFortune;
+    [SerializeField] Text SecondFortune;
+    [SerializeField] Text ThirdFortune;
+    [SerializeField] int TextSize;
+    [SerializeField] Canvas mEanings;
+
+    [SerializeField] Animator aniBox;
+    [SerializeField] Animator aniArthur;
+    [SerializeField] Animator aniAvelyn;
+    GameObject box;
 
     MeshRenderer myMesh;
     int cardIndex;
-    bool inPickingPhase = true;
+    RunText runText;
+    public bool inPickingPhase = true;
     public int isReversed = 0; //0 is upright, 1 is reversed
-    int cardOrder = 0; //keeps track of order of cards
+    static int cardOrder = 0; //keeps track of order of cards
+
+    AudioSource mainSound;
+
+    //dont touch
+    public AudioSource auSrc;
+    public AudioClip auClip;
 
     public Cards[] card_list;
     //private void Awake()
@@ -35,11 +54,18 @@ public class CardModel : MonoBehaviour
 
     //}
 
+
     void Start()
     {
+        FirstFortune = FindObjectOfType<Text>();
         myMesh = gameObject.GetComponent<MeshRenderer>();
+        mainSound = gameObject.GetComponent<AudioSource>();
         ShowFace();
         waitingCards = new List<CardModel>();
+        //dont touch
+        auSrc = gameObject.GetComponent<AudioSource>();
+        runText = FindObjectOfType<RunText>();
+        box = GameObject.Find("DialogueBox");
     }
 
     void Update()
@@ -47,12 +73,24 @@ public class CardModel : MonoBehaviour
         if (isDecoration)
         {
             this.transform.Rotate(0, 90 * Time.deltaTime, 0);
-        }     
+        }
+
+        //dont touch
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            auSrc.Stop();
+        }
     }
 
     public void ShowFace()
     {
         myMesh.material = materialDirectory[cardIndex];
+    }
+
+    public void showModel(Vector3 position)
+    {
+        modCoord = position;
+        modCoord.y = 0.2f;
     }
 
     public void setIndex(int index)
@@ -82,48 +120,154 @@ public class CardModel : MonoBehaviour
         
     }
 
+    private IEnumerator Rotate1()
+    {
+        // Time the rotation takes (0.5s)
+        float lerpTime = 0.5f;
+        float currentTime = 0;
+        float t = 0;
+
+        while (t < 1)
+        {
+            currentTime += Time.deltaTime;
+            t = currentTime / lerpTime;
+            transform.RotateAround(transform.position, new Vector3(36.22f, 20f, 0), Time.deltaTime * 180f*2);
+            yield return null;
+        }
+
+    }
+    
+
     public void Flip() //flips card and displays associated text
     {
-        //this part randomizes whether each card is in the reversed or not, then rotates it so
-        int num = Random.Range(0, 2);
+        if (cardOrder == 3) cardOrder = 0; //For testing Refresh Button
+        if (cardOrder == 0 && box.activeSelf)
+        {
+            aniBox = GameObject.Find("DialogueBox").GetComponent<Animator>();
+            aniBox.SetTrigger("box");
+        }
+
+            //this part randomizes whether each card is in the reversed or not, then rotates it so
+            int num = Random.Range(0, 2);
         isReversed = num;
         if (isReversed == 1)
         {
-            //Tuan uncomment this
-            //this.transform.eulerAngles = this.transform.eulerAngles + new Vector3(0, 0, 180);
+            this.transform.eulerAngles = this.transform.eulerAngles + new Vector3(0, 0, 180);
         }
-
         Vector3 start = this.transform.eulerAngles;
-        Vector3 end = this.transform.eulerAngles + new Vector3(0f, -180f, 0f);
+        //Vector3 end = this.transform.eulerAngles + new Vector3(transform.eulerAngles.x, -180f, 0f);
+        Vector3 end = this.transform.eulerAngles + new Vector3(36.22f*2, -180f, 0f);
         StartCoroutine(Rotate(start, end));
 
         cardOrder++;
         Display();        
     }
 
+    public void RunAnimationText(string text)
+    {
+        runText.quote.text = "";
+        runText.title.text = card_list[cardIndex].cName;
+
+        StartCoroutine(Typing(text));
+    }
+
+    IEnumerator Typing(string text)
+    {
+        foreach (char letter in text.ToCharArray())
+        {
+            runText.quote.text += letter;
+            yield return new WaitForSeconds(0.02f);
+        }
+    }
+
+
+
     public void Display()
     {
+        //dont touch
+        Vector3 zero = new Vector3(0, 0, 0);
         if (cardOrder == 1)
         {
             if (isReversed == 1)
-                print(card_list[cardIndex].RePast);
+            {
+                RunAnimationText(card_list[cardIndex].RePast);
+                runText.title.text += " - Your Past";
+                //dont touch
+                auClip = card_list[cardIndex].audioClips[3];
+                //var myCardlist1 = Instantiate(card_list[cardIndex].cModel, modCoord, Quaternion.identity);
+                //myCardlist1.transform.parent = transform;
+                //Text meaning;
+                //meaning = Instantiate(FirstFortune, modCoord, Quaternion.identity) as Text;
+                ////Parent to the panel
+                //meaning.transform.SetParent(mEanings.transform, false);
+                ////Set the text box's text element font size and style:
+                //meaning.fontSize = TextSize;
+                ////Set the text box's text element to the current textToDisplay:
+                //meaning.text = card_list[cardIndex].meaning;
+
+            }
             else
-                print(card_list[cardIndex].Past);
+            {
+                RunAnimationText(card_list[cardIndex].Past);
+                runText.title.text += " - Your Past";
+                //dont touch
+                auClip = card_list[cardIndex].audioClips[0];
+            }
+            //var myCardlist = Instantiate(card_list[cardIndex].cModel, modCoord, Quaternion.identity);
+            //myCardlist.transform.parent = transform;
+            //showModel();
         }
         else if (cardOrder == 2)
         {
             if (isReversed == 1)
-                print(card_list[cardIndex].RePresent);
+            {
+                RunAnimationText(card_list[cardIndex].RePresent);
+                runText.title.text += " - Your Present";
+                //dont touch
+                auClip = card_list[cardIndex].audioClips[4];
+                //var myCardlist = Instantiate(card_list[cardIndex].cModel, modCoord, Quaternion.identity);
+                //myCardlist.transform.parent = transform;
+                //showModel();
+            }
             else
-                print(card_list[cardIndex].Present);
+            {
+                RunAnimationText(card_list[cardIndex].Present);
+                runText.title.text += " - Your Present";
+                //dont touch
+                auClip = card_list[cardIndex].audioClips[1];
+            }
+            //var myCardlist2 = Instantiate(card_list[cardIndex].cModel, modCoord, Quaternion.identity);
+            //myCardlist2.transform.parent = transform;
+            //showModel();
         }
-        else
+        else if (cardOrder == 3)
         {
             if (isReversed == 1)
-                print(card_list[cardIndex].ReFuture);
+            {
+                RunAnimationText(card_list[cardIndex].ReFuture);
+                runText.title.text += " - Your Future";
+                //dont touch
+                auClip = card_list[cardIndex].audioClips[5];
+                //var myCardlist3 = Instantiate(card_list[cardIndex].cModel, modCoord, Quaternion.identity);
+                //myCardlist3.transform.parent = transform;
+                //showModel();
+            }
             else
-                print(card_list[cardIndex].Future);
+            {
+                RunAnimationText(card_list[cardIndex].Future);
+                runText.title.text += " - Your Future";
+                //dont touch
+                auClip = card_list[cardIndex].audioClips[2];
+            }
+            //var myCardlist = Instantiate(card_list[cardIndex].cModel, modCoord, Quaternion.identity);
+            //myCardlist.transform.parent = transform;
+            //showModel();
         }
+            //dont touch
+            //AudioSource.PlayClipAtPoint(auClip, zero);
+            auSrc.clip = auClip;
+            auSrc.Play();
+
     }
 
     public IEnumerator Move(Vector3 startPos, Vector3 endPos, 
@@ -146,7 +290,7 @@ public class CardModel : MonoBehaviour
 
     public void Pick()
     {
-        
+        mainSound.Play();
         float pickSpace = 0.05f;
         if (!isPick)
         {
@@ -200,6 +344,9 @@ public class CardModel : MonoBehaviour
             return null;
         }
     }
+
+
+
     private void OnMouseUpAsButton()
     {
         if(inPickingPhase)
@@ -214,7 +361,17 @@ public class CardModel : MonoBehaviour
             {
                 Flip();
                 isFlipped = true;
-                print("my state :" +this.isFlipped);
+                aniArthur = GameObject.Find("Arthur").GetComponent<Animator>();
+                aniAvelyn = GameObject.Find("Avelyn").GetComponent<Animator>();
+                string name = "attack1";
+                int i = Random.Range(1, 4);
+                if(i == 1) name = "attack1";
+                if (i == 2) name = "attack2";
+                if (i == 3) name = "attack3";
+
+                aniArthur.SetTrigger(name);
+                aniAvelyn.SetTrigger(name);
+
             }     
         }             
     }

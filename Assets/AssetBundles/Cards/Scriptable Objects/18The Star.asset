@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 18
   cName: The Star
+  cModel: {fileID: 0}
   meaning: "Meaning: When the Star card appears, you are likely to find yourself feeling
     inspired. It brings renewed hope and faith and a sense that you are truly blessed
     by the universe at this time.\r\n"
@@ -55,5 +56,11 @@ MonoBehaviour:
   ReFuture: "Don\u2019t lose heart being stuck at a roadblock. Trust that you will
     find a way through. "
   CardImg: {fileID: 21300000, guid: 8349ecddd9a986a488871e6dac0ea5df, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: 0b8824f2cfa53824894df22434a0183b, type: 3}
+  - {fileID: 8300000, guid: 91b91afbaef2ab446ae6e6db80c5f4d3, type: 3}
+  - {fileID: 8300000, guid: 7ab7bb75a4c0f45428f3688c333477cd, type: 3}
+  - {fileID: 8300000, guid: 812aaa93eba84fb4695a3486e9ca6a61, type: 3}
+  - {fileID: 8300000, guid: 910e229f5040b5a4b8a92baacd3b11d0, type: 3}
+  - {fileID: 8300000, guid: e2351bd6ffed66d409b6917d443bee06, type: 3}

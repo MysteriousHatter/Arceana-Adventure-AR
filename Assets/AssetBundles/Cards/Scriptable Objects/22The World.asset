@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 22
   cName: The World
+  cModel: {fileID: 0}
   meaning: "Meaning: The World represents an ending to a cycle of life, a pause in
     life before the next big cycle beginning with the fool. It is an indicator of
     a major and inexorable change, of tectonic breadth.\r\n"
@@ -51,5 +52,11 @@ MonoBehaviour:
   ReFuture: You seek solid answers where there are none. It will do you some good
     to embrace uncertainty.
   CardImg: {fileID: 21300000, guid: f35915be65ab1e3499731a4640ad10bf, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: 1806777b96b64394890b69bde441c04d, type: 3}
+  - {fileID: 8300000, guid: f11e051c440d58d41a87e66e713558cd, type: 3}
+  - {fileID: 8300000, guid: b12b8e82499e2084fb885e23e2bf00e0, type: 3}
+  - {fileID: 8300000, guid: 2635948c2a3b2304a99bae5a10a982d2, type: 3}
+  - {fileID: 8300000, guid: 81a2d679642fb8d4db4a9c470e2049f2, type: 3}
+  - {fileID: 8300000, guid: 7fc1a23457bd5e4418170df100857f18, type: 3}

@@ -23,4 +23,13 @@ public class CardView : MonoBehaviour
         Reversed.text = card_list[card].downright;
         Card_Image.sprite = card_list[card].CardImg;
     }
+
+    public void OpenCardsAR(int card)
+    {
+        title.text = card_list[card].cName;
+        meaning.text = card_list[card].meaning;
+        //Upright.text = card_list[card].upright;
+        //Reversed.text = card_list[card].downright;
+        //Card_Image.sprite = card_list[card].CardImg;
+    }
 }

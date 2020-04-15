@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 13
   cName: The Hanged Man
+  cModel: {fileID: 0}
   meaning: "Meaning: The Hanged Man is the card that suggests ultimate surrender,
     sacrifice, or being suspended in time.\r\n"
   upright: "Upright:(Letting go, Breaking old patterns, Circumspection, Suspension,
@@ -51,5 +52,11 @@ MonoBehaviour:
   ReFuture: 'Ignoring your homework assignments now only serves to delay the inevitable
     cram at the end. So stop stalling and start doing! '
   CardImg: {fileID: 21300000, guid: bfa56180273d5384da8f7b6d6d77bbc3, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: f9ba601dbe54b0f4b92dcb7c6d4bc97b, type: 3}
+  - {fileID: 8300000, guid: 68a7a9ac23135cb42ab9bf53b04c8464, type: 3}
+  - {fileID: 8300000, guid: 6e18dda606cdc144599748b6e6bee06b, type: 3}
+  - {fileID: 8300000, guid: 15de25f647eecfc47b3a1b3a461079a3, type: 3}
+  - {fileID: 8300000, guid: 9bd9da7a3f52cff40ae74924cbe41afa, type: 3}
+  - {fileID: 8300000, guid: 904aa0ce8b286ca4382d3573309443c8, type: 3}

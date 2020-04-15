@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cNumber: 9
   cName: The Strength
+  cModel: {fileID: 0}
   meaning: "Meaning: Strength predicts the triumphant conclusion to a major life problem,
     situation or temptation through strength of character. It is a very happy card
     if you are fighting illness or recovering from injury.\r\n"
@@ -52,5 +53,11 @@ MonoBehaviour:
     bite that you insist on scratching. Wear confidence like bug repellent to keep
     the doubt at bay. '
   CardImg: {fileID: 21300000, guid: 524001afe64420747826c06057620e62, type: 3}
-  reCardImg: {fileID: 0}
   card: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: c1e356bd10b1ae94caf8b2ea5b00787d, type: 3}
+  - {fileID: 8300000, guid: 56b6550d6c3e33446ba3b56c507b61a2, type: 3}
+  - {fileID: 8300000, guid: aa77aab084e437b4bb233e06f0fb652e, type: 3}
+  - {fileID: 8300000, guid: 3351c612b6a84d2419c83651901190c0, type: 3}
+  - {fileID: 8300000, guid: ff923fcf56d3f0144aef4ef574b258f8, type: 3}
+  - {fileID: 8300000, guid: a71e83a7a03852948ab97f928b191830, type: 3}
